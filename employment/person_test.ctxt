@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=person_test()
+comment1.params=input_filename
+comment1.target=java.lang.String[]\ read_names(java.lang.String)
+comment2.params=
+comment2.target=void\ print_names()
+comment3.params=
+comment3.target=java.lang.String[]\ get_names()
+comment4.params=
+comment4.target=int\ get_number_of_names()
+comment5.params=argv
+comment5.target=void\ main(java.lang.String[])
+numComments=6

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=i\ j
+comment0.target=void\ open(int,\ int)
+comment1.params=i\ j
+comment1.target=boolean\ isOpen(int,\ int)
+comment2.params=i\ j
+comment2.target=boolean\ isFull(int,\ int)
+comment3.params=
+comment3.target=boolean\ percolates()
+numComments=4

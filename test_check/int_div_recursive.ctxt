@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=dividend\ divisor
+comment0.target=int[]\ division(int,\ int)
+comment0.text=\n\ Returns\ an\ array\ with\ the\ quotient\ and\ remainder\ of\ the\n\ integer\ division\n\n\ @param\ dividend\ a\ positive\ int\n\ @param\ divisor\ a\ positive\ int\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

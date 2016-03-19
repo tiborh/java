@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=N
+comment0.target=QuickFindUF(int)
+comment1.params=
+comment1.target=void\ reset()
+comment10.params=
+comment10.target=int\ count()
+comment11.params=args
+comment11.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ resetAll()
+comment3.params=i
+comment3.target=void\ reset(int)
+comment4.params=i
+comment4.target=int\ get_id_i(int)
+comment5.params=i\ val
+comment5.target=void\ set_id_i(int,\ int)
+comment6.params=p\ q
+comment6.target=boolean\ connected(int,\ int)
+comment7.params=p\ q
+comment7.target=void\ union(int,\ int)
+comment8.params=
+comment8.target=void\ print_array()
+comment9.params=p
+comment9.target=int\ find(int)
+numComments=12

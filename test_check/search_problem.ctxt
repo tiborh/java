@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=array\ key\ iMin\ iMax
+comment0.target=int\ foo(int[],\ int,\ int,\ int)
+comment0.text=\ \n\ @param\ array\ an\ array\ of\ sorted\ (ascending\ order)\ int\ values\ that\ contains\ no\ duplicates\n\ @param\ iMin\ an\ int\ value\ such\ that\ 0\ <\=\ iMin\ <\ array.length\n\ @param\ iMax\ an\ int\ value\ such\ that\ iMin\ -\ 1\ <\ iMax\ <\ array.length\n\ @param\ key\ an\ int\ value\ \n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

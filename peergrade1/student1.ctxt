@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=preyPred\ a\ b\ n
+comment0.target=double[]\ preyPredLV(double[],\ double[],\ double[],\ int)
+comment0.text=\n\ @param\ preyPred\n\ @param\ a\n\ @param\ b\n\ @param\ n\n\ @return\n
+numComments=1

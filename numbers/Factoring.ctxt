@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Factoring()
+comment0.text=\n\ Get\ a\ value\ for\ the_number\n
+comment1.params=input
+comment1.target=Factoring(long)
+comment1.text=\n\ the\ number\ to\ factor\ is\ the_number\n\ \n\ @param\ input\ the\ number\ to\ factor\n
+comment2.params=
+comment2.target=long\ getNumber()
+comment3.params=
+comment3.target=void\ printList()
+comment4.params=
+comment4.target=boolean\ factoring()
+comment4.text=\n\ write\ the\ output\ int\ the\ format\ \n\ the_number\ \=\ factor1\ *\ factor2\ *\ ...\ *\ factorN\n
+comment5.params=argv
+comment5.target=void\ main(java.lang.String[])
+numComments=6

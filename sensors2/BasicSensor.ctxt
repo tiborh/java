@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=value
+comment0.target=BasicSensor(double)
+comment1.params=value
+comment1.target=void\ setValue(double)
+comment2.params=
+comment2.target=double\ getValue()
+comment3.params=
+comment3.target=void\ clearValue()
+numComments=4

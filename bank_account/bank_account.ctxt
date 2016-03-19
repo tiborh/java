@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=bank_account()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ bank_account\ (initialised\ with\ default\ values)\n
+comment1.params=initial_balance\ name
+comment1.target=bank_account(double,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ bank_account\n\ @param\ \ \ initial_balance\ \ \ the\ initial\ balance\ of\ the\ owner\n\ @param\ \ \ name\ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ name\ of\ the\ owner\n
+comment2.params=deposited
+comment2.target=void\ deposit(double)
+comment2.text=\n\ Add\ deposited\ amount\ to\ balance\n\ @param\ \ \ deposited\ \ \ \ \ \ the\ deposited\ amount\n
+comment3.params=withdrawn
+comment3.target=void\ withdraw(double)
+comment3.text=\n\ Add\ deposited\ amount\ to\ balance\n\ @param\ \ \ withdrawn\ \ \ \ \ \ the\ withdrawn\ amount\n
+comment4.params=
+comment4.target=double\ get_balance()
+comment4.text=\n\ Return\ the\ balance\ as\ number\n\ @return\ \ the\ current\ balance\ of\ the\ account\n
+comment5.params=
+comment5.target=java.lang.String\ get_data()
+comment5.text=\n\ Return\ data\ as\ a\ concatenated\ string\n\ @return\ \ the\ owner\ and\ the\ balance\ as\ a\ string\n
+numComments=6

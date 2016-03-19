@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=print_month()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ calendar_print\n\ \n
+comment1.params=date_string
+comment1.target=print_month(java.lang.String)
+comment2.params=date_string
+comment2.target=void\ set_date(java.lang.String)
+comment3.params=
+comment3.target=void\ print_month()
+comment3.text=\n\ program\ is\ a\ static\ one,\ not\ object\ oriented\n\ \n\ @param\ \ the_date\:\ a\ GregorianCalendar\ date\n\ @return\ void\ (prints\ only)\n
+comment4.params=argv
+comment4.target=void\ main(java.lang.String[])
+numComments=5

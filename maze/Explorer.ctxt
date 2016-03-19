@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=mazeToExplore
+comment0.target=void\ explore(Maze)
+comment1.params=
+comment1.target=char\ getFootprint()
+numComments=2

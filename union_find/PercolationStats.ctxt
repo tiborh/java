@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=N\ T
+comment0.target=PercolationStats(int,\ int)
+comment0.text=\r\n\ Perform\ T\ independent\ computational\ experiments\ on\ an\ N-by-N\ grid\r\n\ \r\n\ @param\ N\ N-by-N\ sized\ grid\ is\ used\r\n\ @param\ T\ T\ number\ of\ experiments\ are\ performed\r\n
+comment1.params=
+comment1.target=double\ mean()
+comment1.text=\r\n\ sample\ mean\ of\ percolation\ threshold\r\n\ \r\n\ @return\ the\ mean\ value\ of\ what\ number\ was\ open\ when\ the\ system\ percolated\r\n
+comment2.params=
+comment2.target=double\ stddev()
+comment2.text=\r\n\ sample\ standard\ deviation\ of\ percolation\ threshold\r\n\ \r\n\ @return\ the\ standard\ deviation\ of\ percolation\ numbers\ in\ the\ experiments\r\n
+comment3.params=
+comment3.target=double\ confidenceLo()
+comment3.text=\r\n\ @return\ lower\ bound\ of\ the\ 95%\ confidence\ interval\r\n
+comment4.params=
+comment4.target=double\ confidenceHi()
+comment4.text=\r\n\ @return\ upper\ bound\ of\ the\ 95%\ confidence\ interval\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\r\n\ test\ client,\ description\ to\ follow\ later\:\r\n
+numComments=6

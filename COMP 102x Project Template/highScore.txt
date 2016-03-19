@@ -1,0 +1,7 @@
+sensei	3	12
+Aoi	3	12
+Arui	3	12
+Teboru	2	12
+Sabishii	2	12
+Take	1	12
+t	3	7

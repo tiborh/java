@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Primes()
+comment0.text=\n\ Constructors\ for\ objects\ of\ class\ Primes\n
+comment1.params=the_number
+comment1.target=Primes(long)
+comment2.params=
+comment2.target=long\ getNumber()
+comment3.params=
+comment3.target=void\ printList()
+comment4.params=the_number
+comment4.target=boolean\ is_prime(long)
+comment5.params=
+comment5.target=void\ fillPrimes()
+comment5.text=\n\ fills\ in\ list\ with\ the\ desired\ number\ of\ primes\ \n
+comment6.params=argv
+comment6.target=void\ main(java.lang.String[])
+numComments=7

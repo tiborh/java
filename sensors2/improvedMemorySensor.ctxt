@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=value\ memoryPositions
+comment0.target=improvedMemorySensor(double,\ int)
+comment1.params=
+comment1.target=double[]\ getOldValues()
+comment2.params=value
+comment2.target=void\ setValue(double)
+comment3.params=
+comment3.target=void\ printAllValues()
+numComments=4

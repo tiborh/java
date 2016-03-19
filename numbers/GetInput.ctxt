@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GetInput()
+comment1.params=input
+comment1.target=GetInput(java.lang.Long)
+comment2.params=input
+comment2.target=GetInput(java.lang.String)
+comment3.params=
+comment3.target=long\ readFromConsole()
+comment4.params=
+comment4.target=long\ getNumber()
+comment4.text=\n\ @return\ returns\ the\ integer\n
+comment5.params=argv
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\n\ The\ only\ purpose\ of\ main\ is\ to\ process\ the\ input\n\ \n\ @param\ \ argv\ \ \ the\ integer\ to\ process\n
+numComments=6

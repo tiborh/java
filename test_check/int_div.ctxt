@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=divident\ divisor
+comment0.target=int_div(int,\ int)
+comment0.text=\n\ @param\ \ divident\ \ \ the\ divident\n\ @param\ \ divisor\ \ \ \ the\ divisor\n
+comment1.params=
+comment1.target=void\ division()
+comment1.text=\n\ To\ calculate\ the\ quotient\ and\ the\ remainder\n\ \n\ \n\ @return\ \ \ \ \ void\ \n
+comment2.params=
+comment2.target=void\ print_results()
+comment3.params=
+comment3.target=void\ print()
+comment4.params=
+comment4.target=int\ get_quotient()
+comment5.params=
+comment5.target=int\ get_remainder()
+numComments=6

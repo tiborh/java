@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=p\ q
+comment0.target=void\ union(int,\ int)
+comment0.text=\r\n\ add\ connection\ between\ p\ and\ q\r\n\ \r\n\ @param\ \ p\ \ \ one\ of\ the\ points\ to\ connect\r\n\ @param\ \ q\ \ \ the\ other\ point\ to\ connect\r\n
+comment1.params=p\ q
+comment1.target=boolean\ connected(int,\ int)
+comment1.text=\r\n\ are\ p\ and\ q\ in\ the\ same\ component?\r\n\ \r\n\ @param\ p\ one\ of\ the\ points\ to\ test\r\n\ @param\ q\ the\ other\ points\ to\ test\r\n\ @return\ true\ if\ p\ and\ q\ are\ connected,\ false\ otherwise\r\n
+comment2.params=i
+comment2.target=int\ get_id_i(int)
+comment2.text=\r\n\ gets\ element\ number\ i\r\n\ \r\n\ @param\ i\ the\ index\ of\ the\ element\r\n\ @return\ element\ number\ i\r\n
+comment3.params=i\ val
+comment3.target=void\ set_id_i(int,\ int)
+comment3.text=\r\n\ sets\ element\ number\ i\ to\ val\r\n\ \r\n\ @param\ i\ the\ index\ of\ the\ element\ to\ set\r\n\ @param\ val\ the\ value\ to\ which\ the\ element\ is\ to\ be\ set\r\n
+comment4.params=p
+comment4.target=int\ find(int)
+comment4.text=\r\n\ component\ identifier\ for\ p\ (0\ to\ N\ \u2013\ 1)\r\n\ \r\n\ @param\ p\ find\ a\ component\r\n\ @return\ index\ of\ the\ object\r\n
+comment5.params=
+comment5.target=int\ count()
+comment5.text=\r\n\ number\ of\ components\r\n\ \r\n\ @return\ the\ number\ of\ components\r\n
+numComments=6

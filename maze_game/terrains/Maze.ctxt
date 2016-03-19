@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=maze
+comment0.target=Maze(int[][])
+comment0.text=\n\ Construct\ a\ new\ Maze\ using\ the\ specified\ bidimensional\ array\n\ @param\ maze\ The\ bidimensional\ array\ of\ ints\ to\ be\ used\ as\ maze\ \n
+comment1.params=
+comment1.target=Maze()
+comment1.text=\n\ Construct\ a\ new\ Maze\ using\ the\ DEFAULT_MAZE\ \=\ <br\ />\n\ {{0,\ 0,\ 1,\ 1,\ 1,\ 1,\ 1,\ 1},<br\ />\n\ \ {2,\ 0,\ 1,\ 0,\ 0,\ 0,\ 1,\ 1},<br\ />\n\ \ {1,\ 0,\ 1,\ 0,\ 0,\ 0,\ 0,\ 0},<br\ />\n\ \ {1,\ 1,\ 1,\ 0,\ 0,\ 0,\ 0,\ 0},<br\ />\n\ \ {0,\ 0,\ 1,\ 0,\ 1,\ 3,\ 1,\ 1},<br\ />\n\ \ {0,\ 0,\ 1,\ 0,\ 1,\ 0,\ 0,\ 1},<br\ />\n\ \ {1,\ 0,\ 1,\ 1,\ 1,\ 0,\ 0,\ 0},<br\ />\n\ \ {1,\ 1,\ 1,\ 0,\ 1,\ 1,\ 0,\ 0}};\ \n
+comment2.params=
+comment2.target=Maze\ clone()
+comment2.text=\n\ Method\ to\ create\ an\ return\ a\ copy\ of\ the\ current\ Maze\ \n\ @return\:\ a\ Maze\ that\ represents\ the\ cloned\ Maze.\n
+comment3.params=row\ col
+comment3.target=boolean\ findPathFrom(int,\ int)
+comment3.text=\n\ Method\ to\ find\ path\ from\ an\ specific\ position\ in\ the\ array\ trying\ all\ available\n\ neighbors.\n\ @param\ row\ int\ that\ represent\ the\ index\ of\ a\ row\ \n\ @param\ col\ int\ that\ represent\ the\ index\ of\ a\ column\n\ @return\ a\ boolean\ (true\ if\ a\ path\ have\ been\ finded\ and\ false\ if\ not).\n
+comment4.params=row\ col
+comment4.target=boolean\ isAvailablePosition(int,\ int)
+comment4.text=\n\ Method\ to\ test\ if\ an\ specific\ position\ in\ the\ array\ is\ available.<br\ />\n\ A\ position\ is\ available\ if\:\ <br\ />\n\ (1)\ it\ is\ inside\ the\ bounds\ of\ the\ maze\ <br\ />\n\ (2)\ if\ it\ is\ an\ open\ space\ or\ <br\ />\n\ (3)\ it\ is\ the\ goal\n\ @param\ row\ int\ that\ represent\ the\ index\ of\ a\ row\ \n\ @param\ col\ int\ that\ represent\ the\ index\ of\ a\ column\n\ @return\ True\ if\ specified\ position\ is\ available\ and\ false\ if\ it\ is\ not.\n
+comment5.params=
+comment5.target=void\ print()
+comment5.text=\n\ Method\ that\ prints\ an\ array\ with\ the\ maze\ output\ using\ the\ following\ MAZE_SYMBOLS\:\ <br\ />\n\ '\#'\ -\ obstacle<br\ />\n\ '.'\ -\ open\ space<br\ />\n\ '+'\ path\ taken\ <br\ />\n\ '*'\ goal.\ \n
+comment6.params=footprint
+comment6.target=void\ print(char)
+comment6.text=\n\ Method\ that\ prints\ an\ array\ with\ the\ maze\ output\ using\ the\ following\ MAZE_SYMBOLS\:\ <br\ />\n\ '\#'\ -\ obstacle<br\ />\n\ '.'\ -\ open\ space<br\ />\n\ '*'\ goal.\ <br\ />\n\ and\ using\ as\ path\ taken\ the\ footprint\ of\ the\ character.\n\ @param\ footprint\ The\ char\ to\ be\ used\ as\ footprint\n
+comment7.params=footprint
+comment7.target=void\ setFootprint(char)
+comment7.text=\n\ Replaces\ the\ footprint\ with\ the\ specified\ value.\n\ @param\ footprint\ The\ char\ to\ be\ used\ as\ footprint\n
+numComments=8

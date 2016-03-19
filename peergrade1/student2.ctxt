@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=preyPred\ a\ b\ n
+comment0.target=double[]\ preyPredLV(double[],\ double[],\ double[],\ int)
+comment0.text=\n\ @param\ preyPred\ array\ consists\ of\ preyPred[0]\ and\ preyPred[1]\ which\ is\ the\ initial\ population\ of\ Snowhares\ and\ Lynx\ respectively\n\ @param\ a\ is\ an\ array\ of\ double\ type\n\ @param\ b\ is\ an\ array\ of\ double\ type\n\ @param\ n\ is\ an\ integer\ (has\ positive\ value\ greater\ than\ 0)\n\ Method\ Returns\ totalCount\ array\ that\ has\ the\ population\ of\ Lynx\ and\ Snowhare\ after\ 'n'\ time\ period\ \n\ tempVar\ is\ an\ array\ that\ is\ a\ temporary\ storage\ to\ keep\ the\ last\ iteration\ result\n
+numComments=1

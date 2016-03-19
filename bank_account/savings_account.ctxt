@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=initial_balance\ name\ rate
+comment0.target=savings_account(double,\ java.lang.String,\ double)
+comment0.text=\n\ constructor\ that\ makes\ use\ of\ the\ constructor\ from\ the\ super\ class\n\ @param\ \ \ initial_balance\ \ \ \ \ the\ initial\ balance\n\ @param\ \ \ name\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ name\ of\ the\ owner\ of\ the\ account\n\ @param\ \ \ rate\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ interest\ rate\ of\ the\ savings\ account\n
+comment1.params=
+comment1.target=java.lang.String\ get_rate_string()
+comment1.text=\n\ a\ getter\ method\ to\ get\ the\ interest\ rate\ as\ a\ string\n\ @return\ \ the\ interest\ rate\ as\ a\ string\n
+comment2.params=
+comment2.target=java.lang.String\ get_savings_data()
+comment2.text=\n\ Return\ data\ as\ a\ concatenated\ string\n\ @return\ \ the\ owner,\ the\ balance,\ and\ the\ interest\ rate\ as\ a\ string\n
+comment3.params=duration
+comment3.target=void\ compound_interest(int)
+comment3.text=\n\ Return\ data\ as\ a\ concatenated\ string\n\ @param\ \ duration\ \ \ \ \ the\ number\ of\ years\ the\ money\ is\ on\ the\ account\n
+comment4.params=rate
+comment4.target=void\ set_interest_rate(double)
+comment4.text=\n\ Change\ interest\ rate\n\ @param\ \ rate\ \ \ \ \ the\ new\ interest\ rate\n
+numComments=5

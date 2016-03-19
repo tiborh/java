@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=x
+comment0.target=void\ generate(int)
+comment0.text=\ @param\ x\ an\ integer\ such\ that\ x\ >\=\ 0\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

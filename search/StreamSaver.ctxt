@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StreamSaver()
+comment1.params=fn
+comment1.target=StreamSaver(java.lang.String)
+comment2.params=
+comment2.target=java.util.ArrayList\ getLines()
+comment3.params=fn
+comment3.target=void\ saveStreamToFile(java.lang.String)
+comment4.params=fn
+comment4.target=void\ setFileName(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getFileName()
+comment6.params=
+comment6.target=java.lang.String\ getFilePathName()
+comment7.params=
+comment7.target=void\ saveStreamToFile()
+comment8.params=argv
+comment8.target=void\ main(java.lang.String[])
+comment8.text=main\ in\ StreamSaver\ *
+numComments=9

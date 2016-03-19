@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=aName
+comment0.target=AdministrationEmployee(java.lang.String)
+comment0.text=\n\ constructor\ for\ an\ administration\ employee\n\ \n\ @param\ aName\ \ the\ name\ of\ the\ employee\n
+comment1.params=
+comment1.target=void\ setSalary()
+comment1.text=\n\ sets\ the\ salary\ of\ the\ employee\n
+numComments=2

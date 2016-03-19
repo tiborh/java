@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=width
+comment0.target=void\ printLine(int)
+comment1.params=width\ spaces
+comment1.target=void\ printLineWithSpaces(int,\ int)
+comment2.params=height
+comment2.target=void\ printTriangleA(int)
+comment3.params=height
+comment3.target=void\ printTriangleB(int)
+comment4.params=base\ height
+comment4.target=void\ printTriangleC(int,\ int)
+comment5.params=base\ height
+comment5.target=void\ printTriangleD(int,\ int)
+comment6.params=base
+comment6.target=void\ printRhombus(int)
+comment6.text=\n\ Complete\ the\ function\ to\ print\ a\ rhombus\n\ Use\ the\ previous\ functions\n
+comment7.params=base
+comment7.target=void\ printHalfRhombus(int)
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

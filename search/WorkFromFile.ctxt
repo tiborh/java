@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=fn
+comment0.target=WorkFromFile(java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ WorkFromFile\n
+comment1.params=
+comment1.target=WorkFromFile()
+comment2.params=argv
+comment2.target=void\ main(java.lang.String[])
+comment2.text=main\ in\ WorkFromFile\ *
+numComments=3

@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=maze
+comment0.target=Maze(int[][])
+comment1.params=
+comment1.target=Maze()
+comment2.params=
+comment2.target=Maze\ clone()
+comment2.text=Todo\:\ change\ this\ method\ using\ only\ one\ loop\ \n\ and\ Arrays.copyOf(maze[i],\ maze[i].length)\n
+comment3.params=row\ col
+comment3.target=boolean\ findPathFrom(int,\ int)
+comment4.params=row\ col
+comment4.target=boolean\ isAvailablePosition(int,\ int)
+comment4.text=\ A\ position\ is\ available\ if\:\ \n\ (1)\ it\ is\ inside\ the\ bounds\ of\ the\ maze\ \n\ (2)\ if\ it\ is\ an\ open\ space\ or\ \n\ (3)\ it\ is\ the\ goal\ \n
+comment5.params=
+comment5.target=void\ print()
+comment5.text=print\ the\ output\ using\ MAZE_SYMBOLS
+comment6.params=footprint
+comment6.target=void\ print(char)
+comment7.params=footprint
+comment7.target=void\ setFootprint(char)
+numComments=8

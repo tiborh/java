@@ -1,0 +1,9 @@
+[INTRO
+
+We have seen in the previous video what an API is and which are it main advantages. Now, it's time to put into practice the knowledge learned and profit such advantages. To this end, we are going to start using the Greenfoot API, which can be consulted in the documentation given by the own software. Although you may not know, you have already use this API in previous exercises. Remember the isKeyDown method from Greenfoot? You may observe that, checking whether a key is down or not is not an easy task, but fortunately Greenfoot provides a method in its API that allows programmers to use this function without need of entering into details.
+
+Now, lets take a look on the Greenfoot API
+
+[NAVIGATE THROUGH THE API DOC IN THE BROWSER AND COMMENT SOMETHING]
+
+

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=cs101_grade()
+comment1.params=name
+comment1.target=cs101_grade(java.lang.String)
+comment2.params=
+comment2.target=void\ main()
+comment3.params=
+comment3.target=void\ get_scores()
+comment4.params=exam_score\ lab_score\ hw_score
+comment4.target=double\ compute_grade(double,\ double,\ double)
+comment5.params=
+comment5.target=void\ set_final_grade()
+comment6.params=
+comment6.target=void\ output_result()
+numComments=7

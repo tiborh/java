@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=x\ number\ array
+comment0.target=int\ foo(java.lang.String,\ int,\ int[])
+comment1.params=
+comment1.target=void\ bar()
+numComments=2

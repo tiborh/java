@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+#define NUMBER_OF_FLOORS 8
+
+void print_building();
+void print_floor(int);
+
+int main(int argc, char **argv) {
+  print_building();
+  return 0;
+}
+
+void print_building() {
+
+
+  return;
+}
+
+void print_floor(int floor) {
+
+
+  return;
+}

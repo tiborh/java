@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=staff\ aDep
+comment0.target=double\ giveTotal(Employee[],\ int)
+comment0.text=\n\ the\ method\ to\ sum\ up\ the\ salaries\ of\ a\ given\ department\n\ \n\ @param\ staff\ the\ staff\ array\n\ @param\ aDep\ \ a\ department\ code\ (key)\n\ @return\ the\ sum\ of\ salaries\ at\ the\ given\ department\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ the\ sample\ staff\ array\ is\ created\ here\ and\ the\ sample\ printout\n\ \n\ @param\ args\ unused\ default\ parameter\n
+numComments=2

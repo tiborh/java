@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=file_io()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ file_io\r\n
+comment1.params=
+comment1.target=void\ read_file()
+comment2.params=
+comment2.target=void\ read_names_to_array()
+comment3.params=
+comment3.target=void\ print_to_file()
+comment3.text=\ Printing\ to\ a\ file\ is\ done\ with\r\n\ print()\ and\ println()\r\n
+comment4.params=
+comment4.target=void\ print_name_array_to_file()
+numComments=5

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ f9()
+comment1.params=
+comment1.target=int\ f8()
+comment10.params=argv
+comment10.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=int[]\ f7()
+comment3.params=
+comment3.target=int\ f6()
+comment4.params=
+comment4.target=int\ f5()
+comment5.params=
+comment5.target=int\ f4()
+comment6.params=value
+comment6.target=int\ f3(int)
+comment7.params=
+comment7.target=int\ f2()
+comment8.params=v
+comment8.target=int\ foo(int)
+comment9.params=x\ y\ z
+comment9.target=void\ f1(int,\ int,\ int)
+numComments=11

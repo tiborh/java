@@ -1,0 +1,33 @@
+import java.text.DateFormatSymbols;
+import java.util.*;
+/**
+ * Prints one month of a Gregorian Calendar
+ * 
+ * @author Gary Cornell (modified by Tibor)
+ * @version 1.5 2014-08-10
+ */
+public class calendar_print
+{
+    /**
+     * Constructor for objects of class calendar_print
+     * (currently, without any function
+     */
+    public calendar_print() {}
+
+    /**
+     * program is a static one, not object oriented
+     * 
+     * @param  args[0]
+     * @return void
+     */
+    public static void main(String[] args)
+    {
+	if (args.length == 0)
+	    System.out.println("You can specify date. eg 2014-08-10");
+	else {
+	    System.out.println("Num of args: " + args.length);
+	    for (String an_arg : args)
+		System.out.printf("\t%s\n",an_arg);
+	}
+    }
+}

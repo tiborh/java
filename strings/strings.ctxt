@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=strings()
+comment1.params=
+comment1.target=void\ print_string()
+comment2.params=
+comment2.target=int\ give_length()
+comment3.params=
+comment3.target=void\ print_length()
+comment4.params=
+comment4.target=void\ break_down()
+comment5.params=from\ sub_length
+comment5.target=void\ print_substring(int,\ int)
+comment6.params=in
+comment6.target=void\ compare_strings(java.lang.String)
+comment7.params=
+comment7.target=void\ print_upper()
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

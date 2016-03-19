@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=Car(java.lang.String)
+comment1.params=
+comment1.target=char\ getFootprint()
+comment2.params=mazeToExplore
+comment2.target=void\ explore(Maze)
+numComments=3

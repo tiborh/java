@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=preyPred\ a\ b\ n
+comment0.target=double[]\ preyPredLV(double[],\ double[],\ double[],\ int)
+numComments=1

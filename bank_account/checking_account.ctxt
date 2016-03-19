@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=initial_balance\ name\ fee
+comment0.target=checking_account(double,\ java.lang.String,\ double)
+comment0.text=\n\ constructor\ that\ makes\ use\ of\ the\ constructor\ from\ the\ super\ class\n\ @param\ \ \ initial_balance\ \ \ \ \ the\ initial\ balance\n\ @param\ \ \ name\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ name\ of\ the\ owner\ of\ the\ account\n\ @param\ \ \ fee\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ interest\ rate\ of\ each\ withdrawal\n
+comment1.params=withdrawn
+comment1.target=void\ withdraw(double)
+comment1.text=\n\ Add\ deposited\ amount\ to\ balance\n\ @param\ \ \ withdrawn\ \ \ \ \ \ the\ withdrawn\ amount\n
+numComments=2

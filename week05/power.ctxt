@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=power()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ power\r\n
+comment2.params=ask
+comment2.target=int\ fill_n(java.lang.String)
+comment3.params=
+comment3.target=void\ filler()
+comment4.params=inNumber\ inPower
+comment4.target=long\ power(int,\ int)
+comment5.params=
+comment5.target=void\ new_power()
+comment6.params=
+comment6.target=void\ print_product()
+numComments=7

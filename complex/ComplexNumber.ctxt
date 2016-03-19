@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=real\ imag
+comment0.target=ComplexNumber(double,\ double)
+comment1.params=real
+comment1.target=ComplexNumber(double)
+comment2.params=
+comment2.target=double\ getReal()
+comment3.params=
+comment3.target=double\ getImag()
+comment4.params=
+comment4.target=void\ print()
+numComments=5

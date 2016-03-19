@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Racfcheck()
+comment0.text=\n\ Default\ constructor\ for\ the\ test\ program.\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ The\ main\ function\ for\ the\ program.\n\ @param\ args\ parameter\ for\ main\n
+comment2.params=user\ password
+comment2.target=boolean\ authenticate(java.lang.String,\ java.lang.String)
+comment2.text=\n\ The\ method\ authenticates\ the\ supplied\ user\ using\ the\ supplied\ password.\n\ @param\ user\ RACF\ user\ id\ to\ authenticate\n\ @param\ password\ RACF\ password\ for\ the\ user\n\ @return\ true\ if\ the\ user\ was\ successfully\ authenticated,\ false\ otherwise.\n
+numComments=3

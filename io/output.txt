@@ -1,0 +1,333 @@
+Student #0: Elvis Presley  
+Student #1: Abraham Lincoln  
+Student #2: Benjamin Franklin  
+Student #3: Leonardo Da Vinci 
+Student #4: Walt Disney  
+Student #5: John F. Kennedy 
+Student #6: George Washington  
+Student #7: Christopher Columbus  
+Student #8: Bill Clinton  
+Student #9: Princess Diana  
+Student #10: Paul McCartney  
+Student #11: Napoleon   
+Student #12: William Shakespeare  
+Student #13: Albert Einstein  
+Student #14: Neil Armstrong  
+Student #15: Mother Teresa  
+Student #16: Thomas Edison  
+Student #17: Charles Dickens  
+Student #18: Ludwig van Beethoven 
+Student #19: John Lennon  
+Student #20: Mohammad Ali  
+Student #21: Bill Gates  
+Student #22: George W. Bush 
+Student #23: Mozart   
+Student #24: Gandhi   
+Student #25: Cleopatra   
+Student #26: Thomas Jefferson  
+Student #27: Alfred Hitchcock  
+Student #28: Michelangelo   
+Student #29: Houdini   
+Student #30: Madonna   
+Student #31: Spider Man  
+Student #32: Eddie Murphy  
+Student #33: Marilyn Monroe  
+Student #34: Margaret Thatcher  
+Student #35: Martin Luther King 
+Student #36: Ronald Reagan  
+Student #37: Plato   
+Student #38: Tom Cruise  
+Student #39: Mark Twain  
+Student #40: Alexander Graham Bell 
+Student #41: Edgar Allen Poe 
+Student #42: Pablo Piccaso  
+Student #43: Dr. Seuss  
+Student #44: Helen Keller  
+Student #45: Ray Charles  
+Student #46: Hillary Clinton  
+Student #47: Isaac Newton  
+Student #48: Vladimir Putin  
+Student #49: Clint Eastwood  
+Student #50: Vincent Van Gogh 
+Student #51: Oprah Winfrey  
+Student #52: Pele   
+Student #53: Jack Nicholson  
+Student #54: Mick Jagger  
+Student #55: Tom Hanks  
+Student #56: Lucille Ball  
+Student #57: Bill Cosby  
+Student #58: Neil Diamond  
+Student #59: Aristotle   
+Student #60: Michael Jackson  
+Student #61: Elizabeth Taylor  
+Student #62: Michael Jordan  
+Student #63: Louis Pasteur  
+Student #64: Britney Spears  
+Student #65: John F. Kennedy, Jr.
+Student #66: Robin Williams  
+Student #67: Dwight D. Eisenhower 
+Student #68: Darth Vader  
+Student #69: Andy Griffith  
+Student #70: Keith Richards  
+Student #71: Sean Connery  
+Student #72: Charlie Brown  
+Student #73: Susan B. Anthony 
+Student #74: Bob Dylan  
+Student #75: Hank Aaron  
+Student #76: John Travolta  
+Student #77: Sigmund Freud  
+Student #78: Steve Martin  
+Student #79: James Dean  
+Student #80: Steve Irwin  
+Student #81: Jacqueline Kennedy Onasis 
+Student #82: Harrison Ford  
+Student #83: Ernest Hemingway  
+Student #84: James Taylor  
+Student #85: Whoopi Goldberg  
+Student #86: Denzel Washington  
+Student #87: Yogi Berra  
+Student #88: Beyonce   
+Student #89: Justin Timberlake  
+Student #90: C. S. Lewis 
+Student #91: Henry A. Kissinger 
+Student #92: Bob Hope  
+Student #93: Jim Carrey  
+Student #94: Dan Rather  
+Student #95: Michael J. Fox 
+Student #96: Paul Newman  
+Student #97: Kanye West  
+Student #98: Michael Landon  
+Student #99: Stephen Hawking  
+Student #100: Mr. Rogers  
+Student #101: Lewis Carrol  
+Student #102: Fred Astaire  
+Student #103: Jesse Jackson  
+Student #104: Tyra Banks  
+Student #105: Chevy Chase  
+Student #106: John Candy  
+Student #107: Magic Johnson  
+Student #108: Walter Cronkite  
+Student #109: Newt Gingrich  
+Student #110: Meryl Streep  
+Student #111: Roy Rogers  
+Student #112: Carl Sagan  
+Student #113: Frank Lloyd Wright 
+Student #114: Julia Roberts  
+Student #115: Jane Austen  
+Student #116: David Letterman  
+Student #117: Peyton Manning  
+Student #118: Terry Bradshaw  
+Student #119: Billy Crystal  
+Student #120: Pamela Anderson  
+Student #121: Tom Brokaw  
+Student #122: W.C. Fields  
+Student #123: Willey Mays  
+Student #124: Liberace   
+Student #125: Howard Stern  
+Student #126: Bob Newhart  
+Student #127: Peter Jennings  
+Student #128: Andy Rooney  
+Student #129: Ross Perot  
+Student #130: Borat   
+Student #131: C. G. Jung 
+Student #132: Paul Harvey  
+Student #133: Michele Pfeiffer  
+Student #134: Carol Burnett  
+Student #135: Bill Hicks  
+Student #136: Mae West  
+Student #137: Ashley Simpson  
+Student #138: Chuck Yeager  
+Student #139: Miles Davis  
+Student #140: Jessica Simpson  
+Student #141: Julia Child  
+Student #142: Weird Al Yankovic 
+Student #143: Carrie Fisher  
+Student #144: Elizabeth Dole  
+Student #145: Jimmy Conners  
+Student #146: Danny Glover  
+Student #147: Nathaniel Hawthorne  
+Student #148: Benny Goodman  
+Student #149: William F. Buckley, Jr.
+Student #150: Colin L. Powell 
+Student #151: Norman Rockwell  
+Student #152: Arthur Ashe  
+Student #153: Sigourney Weaver  
+Student #154: Anna Nicole Smith 
+Student #155: Shirley MacLaine  
+Student #156: Marilyn Vos Savant 
+Student #157: Norman Schwarzkopf  
+Student #158: Dan Aykroyd  
+Student #159: George Carlin  
+Student #160: Tommy Lee  
+Student #161: Gloria Steinem  
+Student #162: Henri Mancini  
+Student #163: Alicia Silverstone  
+Student #164: Phil Donahue  
+Student #165: Charles Everett Koop 
+Student #0: Elvis Presley  
+Student #1: Abraham Lincoln  
+Student #2: Benjamin Franklin  
+Student #3: Leonardo Da Vinci 
+Student #4: Walt Disney  
+Student #5: John F. Kennedy 
+Student #6: George Washington  
+Student #7: Christopher Columbus  
+Student #8: Bill Clinton  
+Student #9: Princess Diana  
+Student #10: Paul McCartney  
+Student #11: Napoleon   
+Student #12: William Shakespeare  
+Student #13: Albert Einstein  
+Student #14: Neil Armstrong  
+Student #15: Mother Teresa  
+Student #16: Thomas Edison  
+Student #17: Charles Dickens  
+Student #18: Ludwig van Beethoven 
+Student #19: John Lennon  
+Student #20: Mohammad Ali  
+Student #21: Bill Gates  
+Student #22: George W. Bush 
+Student #23: Mozart   
+Student #24: Gandhi   
+Student #25: Cleopatra   
+Student #26: Thomas Jefferson  
+Student #27: Alfred Hitchcock  
+Student #28: Michelangelo   
+Student #29: Houdini   
+Student #30: Madonna   
+Student #31: Spider Man  
+Student #32: Eddie Murphy  
+Student #33: Marilyn Monroe  
+Student #34: Margaret Thatcher  
+Student #35: Martin Luther King 
+Student #36: Ronald Reagan  
+Student #37: Plato   
+Student #38: Tom Cruise  
+Student #39: Mark Twain  
+Student #40: Alexander Graham Bell 
+Student #41: Edgar Allen Poe 
+Student #42: Pablo Piccaso  
+Student #43: Dr. Seuss  
+Student #44: Helen Keller  
+Student #45: Ray Charles  
+Student #46: Hillary Clinton  
+Student #47: Isaac Newton  
+Student #48: Vladimir Putin  
+Student #49: Clint Eastwood  
+Student #50: Vincent Van Gogh 
+Student #51: Oprah Winfrey  
+Student #52: Pele   
+Student #53: Jack Nicholson  
+Student #54: Mick Jagger  
+Student #55: Tom Hanks  
+Student #56: Lucille Ball  
+Student #57: Bill Cosby  
+Student #58: Neil Diamond  
+Student #59: Aristotle   
+Student #60: Michael Jackson  
+Student #61: Elizabeth Taylor  
+Student #62: Michael Jordan  
+Student #63: Louis Pasteur  
+Student #64: Britney Spears  
+Student #65: John F. Kennedy, Jr.
+Student #66: Robin Williams  
+Student #67: Dwight D. Eisenhower 
+Student #68: Darth Vader  
+Student #69: Andy Griffith  
+Student #70: Keith Richards  
+Student #71: Sean Connery  
+Student #72: Charlie Brown  
+Student #73: Susan B. Anthony 
+Student #74: Bob Dylan  
+Student #75: Hank Aaron  
+Student #76: John Travolta  
+Student #77: Sigmund Freud  
+Student #78: Steve Martin  
+Student #79: James Dean  
+Student #80: Steve Irwin  
+Student #81: Jacqueline Kennedy Onasis 
+Student #82: Harrison Ford  
+Student #83: Ernest Hemingway  
+Student #84: James Taylor  
+Student #85: Whoopi Goldberg  
+Student #86: Denzel Washington  
+Student #87: Yogi Berra  
+Student #88: Beyonce   
+Student #89: Justin Timberlake  
+Student #90: C. S. Lewis 
+Student #91: Henry A. Kissinger 
+Student #92: Bob Hope  
+Student #93: Jim Carrey  
+Student #94: Dan Rather  
+Student #95: Michael J. Fox 
+Student #96: Paul Newman  
+Student #97: Kanye West  
+Student #98: Michael Landon  
+Student #99: Stephen Hawking  
+Student #100: Mr. Rogers  
+Student #101: Lewis Carrol  
+Student #102: Fred Astaire  
+Student #103: Jesse Jackson  
+Student #104: Tyra Banks  
+Student #105: Chevy Chase  
+Student #106: John Candy  
+Student #107: Magic Johnson  
+Student #108: Walter Cronkite  
+Student #109: Newt Gingrich  
+Student #110: Meryl Streep  
+Student #111: Roy Rogers  
+Student #112: Carl Sagan  
+Student #113: Frank Lloyd Wright 
+Student #114: Julia Roberts  
+Student #115: Jane Austen  
+Student #116: David Letterman  
+Student #117: Peyton Manning  
+Student #118: Terry Bradshaw  
+Student #119: Billy Crystal  
+Student #120: Pamela Anderson  
+Student #121: Tom Brokaw  
+Student #122: W.C. Fields  
+Student #123: Willey Mays  
+Student #124: Liberace   
+Student #125: Howard Stern  
+Student #126: Bob Newhart  
+Student #127: Peter Jennings  
+Student #128: Andy Rooney  
+Student #129: Ross Perot  
+Student #130: Borat   
+Student #131: C. G. Jung 
+Student #132: Paul Harvey  
+Student #133: Michele Pfeiffer  
+Student #134: Carol Burnett  
+Student #135: Bill Hicks  
+Student #136: Mae West  
+Student #137: Ashley Simpson  
+Student #138: Chuck Yeager  
+Student #139: Miles Davis  
+Student #140: Jessica Simpson  
+Student #141: Julia Child  
+Student #142: Weird Al Yankovic 
+Student #143: Carrie Fisher  
+Student #144: Elizabeth Dole  
+Student #145: Jimmy Conners  
+Student #146: Danny Glover  
+Student #147: Nathaniel Hawthorne  
+Student #148: Benny Goodman  
+Student #149: William F. Buckley, Jr.
+Student #150: Colin L. Powell 
+Student #151: Norman Rockwell  
+Student #152: Arthur Ashe  
+Student #153: Sigourney Weaver  
+Student #154: Anna Nicole Smith 
+Student #155: Shirley MacLaine  
+Student #156: Marilyn Vos Savant 
+Student #157: Norman Schwarzkopf  
+Student #158: Dan Aykroyd  
+Student #159: George Carlin  
+Student #160: Tommy Lee  
+Student #161: Gloria Steinem  
+Student #162: Henri Mancini  
+Student #163: Alicia Silverstone  
+Student #164: Phil Donahue  
+Student #165: Charles Everett Koop 
+

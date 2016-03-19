@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=Car(java.lang.String)
+comment0.text=\n\ Construct\ a\ new\ car\ using\ the\ specified\ name\n\ @param\ name\ The\ String\ to\ be\ used\ as\ the\ name\ of\ the\ car\n
+comment1.params=
+comment1.target=char\ getFootprint()
+comment1.text=\n\ Returns\ the\ footprint\ of\ the\ Car\ \n\ @return\ The\ footprint\ of\ the\ Car\ (a\ character\ 'c')\n
+comment2.params=mazeToExplore
+comment2.target=void\ explore(terrains.Maze)
+comment2.text=\n\ Explores\ the\ maze\ given\ as\ parameter\n\ @param\ mazeToExplore\ The\ Maze\ being\ explored\ by\ the\ Car\n
+numComments=3

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DataTypes1()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ DataTypes1\n
+comment1.params=arr
+comment1.target=boolean[]\ logical_check(boolean[])
+comment2.params=x
+comment2.target=boolean\ range_examine(int)
+comment3.params=score
+comment3.target=java.lang.String\ grade_check(int)
+comment4.params=score
+comment4.target=java.lang.String\ grade_check2(int)
+comment5.params=argv
+comment5.target=void\ main(java.lang.String[])
+numComments=6

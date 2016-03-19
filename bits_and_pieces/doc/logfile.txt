@@ -1,0 +1,44 @@
+Class documentation
+<---- javadoc command: ---->
+/usr/lib/jvm/java-7-openjdk-amd64/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.7
+-classpath
+/usr/share/bluej/bluejcore.jar:/usr/share/bluej/junit-4.8.2.jar:/usr/share/bluej/userlib/ghost4j-0.3.1.jar:/usr/share/bluej/userlib/junit-4.10.jar:/usr/share/bluej/userlib/javase-2.3-SNAPSHOT.jar:/usr/share/bluej/userlib/tess4j.jar:/usr/share/bluej/userlib/core-2.3-SNAPSHOT.jar:/usr/share/bluej/userlib/comp102x.jar:/usr/share/bluej/userlib/jai_imageio.jar:/usr/share/bluej/userlib/jna.jar:/home/tibor/Dropbox/java/bits_and_pieces
+-d
+/home/tibor/Dropbox/java/bits_and_pieces/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/usr/share/bluej/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/home/tibor/Dropbox/java/bits_and_pieces/iron_man2.java
+<---- end of javadoc command ---->
+Loading source file /home/tibor/Dropbox/java/bits_and_pieces/iron_man2.java...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0_55
+Building tree for all the packages and classes...
+Generating /home/tibor/Dropbox/java/bits_and_pieces/doc/iron_man2.html...
+/home/tibor/Dropbox/java/bits_and_pieces/iron_man2.java:74: warning - @param argument "arguments:" is not a parameter name.
+/home/tibor/Dropbox/java/bits_and_pieces/iron_man2.java:74: warning - @return tag cannot be used in method with void return type.
+Generating /home/tibor/Dropbox/java/bits_and_pieces/doc/package-frame.html...
+Generating /home/tibor/Dropbox/java/bits_and_pieces/doc/package-summary.html...
+Generating /home/tibor/Dropbox/java/bits_and_pieces/doc/constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating /home/tibor/Dropbox/java/bits_and_pieces/doc/allclasses-frame.html...
+Generating /home/tibor/Dropbox/java/bits_and_pieces/doc/allclasses-noframe.html...
+Generating /home/tibor/Dropbox/java/bits_and_pieces/doc/index.html...
+Generating /home/tibor/Dropbox/java/bits_and_pieces/doc/stylesheet.css...
+2 warnings

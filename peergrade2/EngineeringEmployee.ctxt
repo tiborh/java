@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=aName\ aYears\ aContract
+comment0.target=EngineeringEmployee(java.lang.String,\ int,\ int)
+comment0.text=\n\ constructor\ for\ an\ engineering\ employee\n\ \n\ @param\ aName\ \ the\ name\ of\ the\ employee\n\ @param\ aYears\ the\ number\ of\ years\ the\ employee\ has\ been\ working\ for\ the\ company\n
+comment1.params=
+comment1.target=void\ setSalary()
+comment1.text=\n\ sets\ the\ salary\ of\ the\ employee\ based\ on\ starting\ salary\ and\ yearly\ increase\n
+numComments=2

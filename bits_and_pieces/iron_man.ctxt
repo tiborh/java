@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ iron_man()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ iron_man\n
+comment1.params=
+comment1.target=void\ dance()
+comment2.params=
+comment2.target=void\ clean_slate_protocol()
+comment3.params=givenName
+comment3.target=void\ setName(java.lang.String)
+comment4.params=givenId
+comment4.target=void\ setID(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ get_name()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\ \n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \n
+numComments=7

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=preyPred\ a\ b\ n
+comment0.target=double[]\ preyPredLV(double[],\ double[],\ double[],\ int)
+comment0.text=\n\ The\ population\ for\ the\ next\ turn\ is\ calculated\ here.\n\ \n\ @param\ \ preyPred\ \ \ The\ initial\ population\ of\ snowshoe\ hares,\ preyPred[0]<br\ />\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ initial\ population\ of\ lynx,\ preyPred[1]\n\ @param\ \ a\ \ \ \ \ \ \ \ \ \ An\ array\ called\ "a"\ with\ 2\ doubles\ containing\ the\ constants\ a1\ and\ a2\n\ @param\ \ b\ \ \ \ \ \ \ \ \ \ An\ array\ called\ "b"\ with\ 2\ doubles\ containing\ the\ constants\ b1\ and\ b2\n\ @param\ \ n\ \ \ \ \ \ \ \ \ \ The\ number\ of\ periods\ for\ which\ the\ experiment\ runs\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ the\ array\ "preyPred",\ in\ a\ way\ that\ it\ should\ contain\:<br\ />\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ population\ of\ snowshoe\ hares\ at\ the\ given\ number\ of\ periods\ "n"\ (H[n])\ in\ preyPred[0]<br\ />\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ population\ of\ lynxes\ at\ the\ given\ number\ of\ periods\ "n"\ (L[n])\ in\ preyPred[1]\n
+numComments=1

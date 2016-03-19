@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ gen_word()
+comment1.params=word_length
+comment1.target=java.lang.String\ gen_word(int)
+comment2.params=min_length\ max_length
+comment2.target=java.lang.String\ gen_word(int,\ int)
+comment3.params=is_first_vowel\ min_length\ max_length
+comment3.target=java.lang.String\ gen_word(boolean,\ int,\ int)
+comment4.params=first_letter\ word_length
+comment4.target=java.lang.String\ gen_word(char,\ int)
+comment5.params=first_letter\ min_length\ max_length
+comment5.target=java.lang.String\ gen_word(char,\ int,\ int)
+comment6.params=
+comment6.target=void\ print_chars()
+comment7.params=argv
+comment7.target=void\ main(java.lang.String[])
+comment7.text=\n\ the\ lab\n\ \n
+numComments=8

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=preyPred\ a\ b\ n
+comment0.target=double[]\ preyPredLV(double[],\ double[],\ double[],\ int)
+comment0.text=\n\ @author\ Jim\ Ryals\ <jwryals@gmail.com>\n\ @version\ 1.0\ \n\ @since\ May\ 20,\ 2015\n\ <p>\n\ calculates\ the\ change\ in\ populations\ of\ hares\ and\ lynxes\n\ <p>\n\ for\ loop\ iterates\ through\ the\ formula\ for\ change\ in\ population\ of\ each\ of\ hare\ and\ lynx\n\ <p>\n\ @param\ hare\ is\ a\ temporary\ variable\ to\ hold\ outcome\ formula\ for\ lynx\ population\n\ @param\ lynx\ is\ a\ temporary\ variable\ to\ hold\ outcome\ of\ formula\ for\ hare\ population\n\ all\ other\ params\ are\ as\ described\ in\ assignment\ Week\ 3\ Peer\ Review\n
+numComments=1

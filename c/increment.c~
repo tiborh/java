@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(int argc, char **argv) {
+
+  int a = 6;
+  int b = 42;
+  int result1 = b / ++a;
+  int result2 = b / a++;
+
+  return 0;
+}

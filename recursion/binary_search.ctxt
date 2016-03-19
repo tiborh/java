@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=data\ lower\ upper\ value
+comment0.target=int\ binSearch(int[],\ int,\ int,\ int)
+comment0.text=\r\n\ @param\ data\ input\ array\r\n\ @param\ lower\ lower\ bound\ index\r\n\ @param\ upper\ upper\ bound\ index\r\n\ @param\ value\ value\ to\ search\ for\r\n\ @return\ index\ if\ found,\ otherwise\ return\ -1\r\n
+comment1.params=in_array
+comment1.target=void\ print_array(int[])
+comment2.params=argv
+comment2.target=void\ main(java.lang.String[])
+numComments=3

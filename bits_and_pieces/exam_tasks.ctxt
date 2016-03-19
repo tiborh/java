@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=size\ symbol
+comment0.target=void\ printHourglass(int,\ char)
+comment1.params=cipher
+comment1.target=java.lang.String\ decipher(java.lang.String)
+comment2.params=inputStr
+comment2.target=char\ decipherChar(java.lang.String)
+comment2.text=\n\ This\ method\ decodes\ a\ 6-character\ input\ String\ into\ a\ single\ character.\n\ The\ first\ and\ second\ halves\ of\ the\ input\ String\ are\ compared\ lexicographically.\n\ The\ middle\ character\ of\ the\ smaller\ half\ is\ then\ returned.\n\ In\ case\ of\ equal\ halves,\ a\ space\ character\ is\ returned.\n\ \n\ @param\ inputStr\ The\ 6-character\ String\ to\ be\ decoded.\n\ @return\ The\ decoded\ character.\n
+comment3.params=arr1\ arr2\ n
+comment3.target=int\ sumOfProduct(int[],\ int[],\ int)
+comment4.params=arr
+comment4.target=void\ transpose(int[][])
+comment5.params=arr
+comment5.target=void\ printArray(int[][])
+comment6.params=arr
+comment6.target=void\ printArray(int[])
+comment7.params=argv
+comment7.target=void\ main(java.lang.String[])
+numComments=8

@@ -1,0 +1,10 @@
+teboru	2	12
+t	1	12
+t	3	11
+noru	1	11
+anu	1	10
+ibusen	1	8
+sora	2	7
+Take	1	6
+toru	1	6
+sony	1	2

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=firstPoint\ secondPoint
+comment0.target=Line(Point,\ Point)
+comment0.text=\n\ constructing\ a\ line\ from\ two\ endpoints\n
+comment1.params=
+comment1.target=void\ calcLength()
+comment1.text=\n\ Implementation\ of\ the\ length\ of\ a\ line\n
+comment2.params=
+comment2.target=double\ getLineLength()
+numComments=3

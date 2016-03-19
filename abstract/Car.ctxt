@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=c\ l
+comment0.target=Car(java.lang.String,\ boolean)
+comment0.text=\n\ Creates\ a\ new\ car\n\n\ @param\ c\ \ the\ car\ color\n\ @param\ l\ \ the\ state\ of\ the\ car\ lights\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\n\ Returns\ a\ String\ representation\ of\ the\ car\n\n\ @return\ the\ String\ representation\ of\ the\ car\n
+comment2.params=
+comment2.target=void\ printDescription()
+comment2.text=\n\ Prints\ a\ description\ of\ the\ car\ to\ the\ console\n\n
+numComments=3

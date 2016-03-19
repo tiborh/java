@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=person()
+comment1.params=fname\ sname
+comment1.target=person(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String[]\ get_name_array()
+comment3.params=
+comment3.target=java.lang.String\ get_name_string()
+comment4.params=
+comment4.target=java.lang.String\ get_surname()
+comment5.params=
+comment5.target=java.lang.String\ get_firstname()
+comment6.params=argv
+comment6.target=void\ main(java.lang.String[])
+numComments=7
