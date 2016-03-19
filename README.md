@@ -1,2 +1,2 @@
 # java
-various java stuff
+bits and pieces from various courses and examples
