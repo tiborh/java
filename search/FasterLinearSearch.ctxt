@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FasterLinearSearch()
+comment1.params=
+comment1.target=void\ sortList()
+comment2.params=argv
+comment2.target=void\ main(java.lang.String[])
+comment2.text=main\ in\ FasterLinearSearch
+numComments=3

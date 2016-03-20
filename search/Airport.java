@@ -1,11 +1,11 @@
-
+import java.util.Comparator;
 /**
  * For the collection of Airport data
  * 
  * @author Tibor (example from UC San Diego)
  * @version 0.01
  */
-public class Airport
+public class Airport implements Comparable<Airport>
 {
     // instance variables - replace the example below with your own
     private static int ids = 0;
@@ -36,7 +36,7 @@ public class Airport
 
     public Airport(String cit, String cou, String cd3)
     {
-        this.id = ids++;
+        this();
         this.name = cit;
         this.city = cit;
         this.country = cou;
@@ -45,20 +45,14 @@ public class Airport
     
     public Airport(int aid, String cit, String cou, String cd3)
     {
+        this(cit,cou,cd3);
         this.id = aid;
-        this.name = cit;
-        this.city = cit;
-        this.country = cou;
-        this.code3 = cd3;
     }
 
     public Airport(int aid, String nam, String cit, String cou, String cd3)
     {
-        this.id = aid;
+        this(aid,cit,cou,cd3);
         this.name = nam;
-        this.city = cit;
-        this.country = cou;
-        this.code3 = cd3;
     }
     
     public int getId() { return this.id; }
@@ -71,12 +65,35 @@ public class Airport
     
     public String getCode3() { return this.code3; }
     
+    public int compareTo(Airport compair) 
+    {
+        return this.getCity().compareTo(compair.getCity());
+    }
+    
+    public static Comparator<Airport> AirportCityComparator 
+                          = new Comparator<Airport>() {
+
+	    public int compare(Airport airp0, Airport airp1) {
+	    	
+	      String airpCit0 = airp0.getCity().toUpperCase();
+	      String airpCit1 = airp1.getCity().toUpperCase();
+	      
+	      //ascending order
+	      return airpCit0.compareTo(airpCit1);
+	      
+	      //descending order
+	      //return airpCit1.compareTo(airpCit0);
+	    }
+
+	};
+    
     public String toString()
     {
         return(this.id + "\t\"" + this.name + "\"\t\"" + this.city + "\"\t\"" + this.country 
                 + "\"\t\"" + this.code3 + "\"");
     }
     
+    /** main in Airport */
     public static void main(String[] argv)
     {
         Airport airp0 = new Airport();
@@ -99,5 +116,10 @@ public class Airport
         airp1 = new Airport(101,"Heathrow","London","United Kingdom","LHR");
         System.out.println(airp1);
         assert(new String(airp1.getName()).equals("Heathrow"));
+        assert(airp0.compareTo(airp1) < 0);
+        assert(airp1.compareTo(airp0) > 0);
+        airp0 = new Airport(174,"London","London","Canada","YXU");
+        assert(airp0.compareTo(airp1) == 0);
+        assert(airp1.compareTo(airp0) == 0);
     }
 }

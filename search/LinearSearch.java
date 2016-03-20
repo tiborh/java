@@ -10,7 +10,7 @@ import java.io.IOException;
 public class LinearSearch
 {
     // instance variables - replace the example below with your own
-    ArrayList<Airport> airports = new ArrayList<Airport>();
+    private ArrayList<Airport> airports = new ArrayList<Airport>();
 
     /**
      * Constructor for objects of class searchCity
@@ -22,52 +22,61 @@ public class LinearSearch
         airports = wff.getAirports();
     }
 
-    public void linearSearch(String sstr)
+    public ArrayList<Airport> getAirports() { return airports; }
+    
+    public void cleanList()
+    {
+        int listLength = airports.size();
+        for(int i = 0; i < listLength; ++i)
+        {
+            if (airports.get(i).getCode3().length() == 0)
+            {
+                airports.remove(i);
+                listLength = airports.size();
+            }
+        }
+    }
+    
+    public Airport linearSearch(String sstr)
     {
         int listLength = airports.size();
         System.out.println("Searching in " + listLength + " records");
         for (int i = 0; i < listLength; ++i)
         {
             if (airports.get(i).getCity().equals(sstr))
-                System.out.println(airports.get(i));
+            {
+                System.out.println("i == " + i);
+                return airports.get(i);
+            }
         }
+        return null;
     }
     
-    public String findAirportCode(String st)
-    {
-        int listLength = airports.size();
-        System.out.println("Searching in " + listLength + " records");
-        for (int i = 0; i < listLength; ++i)
-        {
-            if (airports.get(i).getCity().equals(st))
-                if (airports.get(i).getCode3().length() != 0)
-                    return airports.get(i).getCode3();
-        }
-        return "No Data";
-    }
-    
-    public void printTop(int nu)
+    public void prinTop(int nu)
     {
         int listLength = airports.size();
         for (int i = 0; i < listLength && i < nu; ++i)
             System.out.println(airports.get(i));
     }
     
+    /** main in LinearSearch */
     public static void main(String[] argv) throws MalformedURLException,IOException
     {
+        String searched;
         LinearSearch ls = new LinearSearch();
-        String apc = new String();
+        ls.cleanList();
+        Airport result;
         if (argv.length > 0)
-        {
-            ls.linearSearch(argv[0]);
-            apc = ls.findAirportCode(argv[0]);
-        }
+            searched = argv[0];
         else
-        {
-            ls.linearSearch("London");
-            apc = ls.findAirportCode("London");
-        }
-        System.out.println("The airport code returned: " + apc);
+            searched = "London";
+            
+        result = ls.linearSearch(searched);
+        if (result == null)
+            System.out.println(searched + "is not found");
+        else
+            System.out.println("The airport code for " + result.getCity() + " (" + result.getName() + ") in "
+                + result.getCountry() + " is " + result.getCode3());
         //ls.printTopBottom(5);
     }
 }
