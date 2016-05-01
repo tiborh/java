@@ -29,7 +29,7 @@ public class DataCollect
     private ArrayList<Airport> airports = new ArrayList<Airport>();
     private URL url;
     protected BufferedReader br;
-    private String cvsSplitBy = ",";
+    private String cvsSplitBy = ",(?=([^\"]*\"[^\"]*\")*[^\"]*$)";
     private static final String defEnc = "UTF-8";
     private static final String defSep = "\t";
     
@@ -64,7 +64,7 @@ public class DataCollect
         int i = 0;
         while ((line = br.readLine()) != null)
         {
-          String[] airpDat = line.split(cvsSplitBy);
+          String[] airpDat = line.split(cvsSplitBy,-1);
           airpDat = checkArray(airpDat);
           Airport anAirp = new Airport(Integer.parseInt(airpDat[0]),airpDat[1],airpDat[2],airpDat[3],airpDat[4]);
           //System.out.println(anAirp);

@@ -66,6 +66,12 @@ public class StreamSaver extends DataCollect
 
     }
     
+    private ArrayList<String> makeStrArray()
+    {
+        ArrayList<String> airps = new ArrayList<String>();
+        return airps;
+    }
+    
     public void setFileName(String fn){ this.fn = fn; }
     public String getFileName() { return this.fn; }
     public String getFilePathName()

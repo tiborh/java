@@ -43,7 +43,7 @@ public class LinearSearch
         System.out.println("Searching in " + listLength + " records");
         for (int i = 0; i < listLength; ++i)
         {
-            if (airports.get(i).getCity().equals(sstr))
+            if (airports.get(i).getCity().toUpperCase().equals(sstr.toUpperCase()))
             {
                 System.out.println("i == " + i);
                 return airports.get(i);

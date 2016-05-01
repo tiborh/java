@@ -1,2 +1,4 @@
 #BlueJ class context
-numComments=0
+comment0.params=airps\ nu
+comment0.target=void\ printHeadTail(java.util.ArrayList,\ int)
+numComments=1

@@ -34,7 +34,7 @@ public class BinarySearch extends FasterLinearSearch
         while (low <= high)
         {
             mid = low + (high - low) / 2;
-            int compare = sstr.compareTo(airports.get(mid).getCity());
+            int compare = sstr.toUpperCase().compareTo(airports.get(mid).getCity().toUpperCase());
             
             if (compare < 0)
                 high = mid - 1;

@@ -67,7 +67,7 @@ public class Airport implements Comparable<Airport>
     
     public int compareTo(Airport compair) 
     {
-        return this.getCity().compareTo(compair.getCity());
+        return this.getCity().toUpperCase().compareTo(compair.getCity().toUpperCase());
     }
     
     public static Comparator<Airport> AirportCityComparator 
