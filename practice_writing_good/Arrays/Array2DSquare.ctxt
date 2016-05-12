@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Array2DSquare()
+comment1.params=size
+comment1.target=Array2DSquare(int)
+comment2.params=first\ second
+comment2.target=Array2DSquare(int,\ int)
+comment3.params=
+comment3.target=void\ fill()
+comment4.params=argv
+comment4.target=void\ main(java.lang.String[])
+comment4.text=Array2DSquare
+numComments=5

@@ -1,0 +1,44 @@
+Class documentation
+<---- javadoc command: ---->
+/usr/lib/jvm/java-8-openjdk-amd64/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+/usr/share/bluej/bluejcore.jar:/usr/share/bluej/junit-4.8.2.jar:/usr/share/bluej/userlib/pi4j-core.jar:/usr/share/bluej/userlib/pi4j-gpio-extension.jar:/usr/share/bluej/userlib/pi4j-device.jar:/usr/share/bluej/userlib/pi4j-service.jar:/home/tibor/repos/java/practice_writing_good
+-d
+/home/tibor/repos/java/practice_writing_good/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/usr/share/bluej/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/home/tibor/repos/java/practice_writing_good/math/sqrt.java
+<---- end of javadoc command ---->
+Loading source file /home/tibor/repos/java/practice_writing_good/math/sqrt.java...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_03-Ubuntu
+Building tree for all the packages and classes...
+Generating /home/tibor/repos/java/practice_writing_good/doc/math/sqrt.html...
+/home/tibor/repos/java/practice_writing_good/math/sqrt.java:10: warning - @precondition is an unknown tag.
+/home/tibor/repos/java/practice_writing_good/math/sqrt.java:10: warning - @postcondition is an unknown tag.
+Generating /home/tibor/repos/java/practice_writing_good/doc/math/package-frame.html...
+Generating /home/tibor/repos/java/practice_writing_good/doc/math/package-summary.html...
+Generating /home/tibor/repos/java/practice_writing_good/doc/constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating /home/tibor/repos/java/practice_writing_good/doc/allclasses-frame.html...
+Generating /home/tibor/repos/java/practice_writing_good/doc/allclasses-noframe.html...
+Generating /home/tibor/repos/java/practice_writing_good/doc/index.html...
+Generating /home/tibor/repos/java/practice_writing_good/doc/stylesheet.css...
+2 warnings

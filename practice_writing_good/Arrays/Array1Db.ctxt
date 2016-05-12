@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ findMaxIndex()
+comment1.params=
+comment1.target=int\ findMin()
+comment2.params=argv
+comment2.target=void\ main(java.lang.String[])
+comment2.text=in\ Array1Db
+numComments=3

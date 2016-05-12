@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=g
+comment0.target=Car(Garage)
+comment0.text=\n\ Constructor\ of\ a\ car\ specifying\ the\ garage\ object\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Method\ that\ is\ being\ always\ invoked\ when\ the\ program\ is\ running\n\ @throws\ InterruptedException\ \n
+comment2.params=
+comment2.target=void\ accelerate()
+comment2.text=\n\ Accelerate\ the\ car\n\ @throws\ InterruptedException\ \n
+comment3.params=
+comment3.target=void\ slowDown()
+comment3.text=\n\ Slow\ down\ the\ car\n\ @throws\ InterruptedException\ \n
+comment4.params=
+comment4.target=void\ moveDown()
+comment4.text=\n\ Move\ the\ car\ downwards\n\ @throws\ InterruptedException\ \n
+comment5.params=
+comment5.target=void\ printGarage()
+comment5.text=\n\ Print\ garage\ info\n
+numComments=6

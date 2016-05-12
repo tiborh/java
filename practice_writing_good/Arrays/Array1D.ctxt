@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Array1D()
+comment1.params=
+comment1.target=void\ fill()
+comment2.params=
+comment2.target=int\ findMax()
+comment3.params=
+comment3.target=int\ findMin()
+comment4.params=
+comment4.target=int\ findMaxIndex()
+comment5.params=
+comment5.target=int\ findMinIndex()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=argv
+comment7.target=void\ main(java.lang.String[])
+comment7.text=in\ Array1D
+numComments=8

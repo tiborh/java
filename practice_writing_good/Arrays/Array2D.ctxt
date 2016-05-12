@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Array2D()
+comment1.params=size
+comment1.target=Array2D(int)
+comment2.params=first\ second
+comment2.target=Array2D(int,\ int)
+comment3.params=
+comment3.target=void\ fill()
+comment4.params=a
+comment4.target=void\ fill(int)
+comment5.params=a
+comment5.target=void\ fill(int[][])
+comment6.params=
+comment6.target=int\ getFirst()
+comment7.params=
+comment7.target=int\ getSecond()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment9.params=argv
+comment9.target=void\ main(java.lang.String[])
+numComments=10

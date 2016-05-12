@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=num
+comment0.target=sqrt(int)
+comment0.text=\n\ @param\ num\ is\ an\ integer\ number\ greater\ than\ 0\ \n\ @precondition\ num\ >\ 0\n\ @postcondition\ root\ >\=\ num\n
+comment1.params=
+comment1.target=double\ getRoot()
+comment2.params=argv
+comment2.target=void\ main(java.lang.String[])
+numComments=3
