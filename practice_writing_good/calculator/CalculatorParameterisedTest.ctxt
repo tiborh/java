@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.util.Collection\ squareNumbers()
+comment1.params=param\ result
+comment1.target=CalculatorParameterisedTest(int,\ int)
+comment2.params=
+comment2.target=void\ setUp()
+comment3.params=
+comment3.target=void\ testSquare()
+numComments=4
