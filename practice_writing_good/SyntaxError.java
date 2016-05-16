@@ -5,7 +5,7 @@
  * @author tibor
  * @version 0.01
  */
-public class SynaxError
+public class SyntaxError
 {
     public static void main(String[] argv)
     {
