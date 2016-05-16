@@ -9,13 +9,15 @@ import java.util.Random;
  */
 public class Array2D
 {
+    private static final int FIRST = 3;
+    private static final int SECOND = 4;
     protected int fmax;
     protected int smax;
     protected int[][] d2;
     
     Array2D()
     {
-        this(3,4);
+        this(FIRST,SECOND);
     }
     
     Array2D(int size)
@@ -40,16 +42,28 @@ public class Array2D
     
     void fill(int a)
     {
+        assert(a > 0);
         for (int i = 0; i < fmax; ++i)
             for (int j = 0; j < smax; ++j)
                 d2[i][j] = a;
     }
     
     // Giving access to a private variable: vulnerability
+    void unsafefill(int[][] a)
+    {
+        assert(a != null);
+        assert(a.length == fmax);
+        assert(a[0].length == smax);
+        d2 = a;
+    }
+    
     void fill(int[][] a)
     {
-        if (a.length == fmax && a[0].length == smax)
-            d2 = a;
+        assert(a.length == fmax);
+        assert(a[0].length == smax);
+        for(int i = 0; i < fmax; ++i)
+            for(int j = 0; j < smax; ++j)
+                d2[i][j] = a[i][j];
     }
     
     int getFirst() { return d2.length; }
@@ -68,6 +82,20 @@ public class Array2D
             outstr += "\n";
         }
         return outstr;
+    }
+    
+    public int[][] get()
+    {
+        int[][] arrOut = new int[fmax][smax];
+        for (int i = 0; i < fmax; ++i)
+            for (int j = 0; j < smax; ++j)
+                arrOut[i][j] = d2[i][j];
+        return arrOut;
+    }
+    
+    public int get(int first, int second)
+    {
+        return d2[first][second];
     }
     
     public static void main(String[] argv)

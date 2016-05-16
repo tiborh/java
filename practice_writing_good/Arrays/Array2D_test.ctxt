@@ -1,4 +1,6 @@
 #BlueJ class context
-comment0.params=argv
-comment0.target=void\ main(java.lang.String[])
-numComments=1
+comment0.params=a
+comment0.target=void\ printArr(int[][])
+comment1.params=argv
+comment1.target=void\ main(java.lang.String[])
+numComments=2

@@ -7,6 +7,16 @@ package Arrays;
  */
 public class Array2D_test
 {
+    private static void printArr(int[][] a)
+    {
+        for (int[] a1: a)
+        {
+            for(int d1: a1)
+                System.out.print(d1);
+            System.out.println();
+        }
+    }
+
     public static void main(String[] argv)
     {
         Array2D a1 = new Array2D();
@@ -26,10 +36,22 @@ public class Array2D_test
                 arr1[i][j] = 1;
         
         System.out.println("Exploiting a vulnerability in array setting:");
-        a1.fill(arr1);
+        a1.unsafefill(arr1);
         System.out.println(a1);
         
         arr1[0][0] = 0;
         System.out.println(a1);
+        
+        int testsize = 3;
+        a1 = new Array2D(testsize);
+        a1.fill(testsize);
+        int[][] A1 = a1.get();
+        printArr(A1);
+        int[][] A2 = new int[testsize][testsize];
+        for (int i = 0; i < testsize; ++i)
+            for( int j = 0; j < testsize; ++j)
+                A2[i][j] = A1[i][j];
+        printArr(A2);
+
     }
 }
