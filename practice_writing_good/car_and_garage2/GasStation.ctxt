@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=crudePrice\ fixedCost
+comment0.target=GasStation(double,\ double)
+comment0.text=\ \n\ Gas\ Station\ constructor\n\ @param\ crudePrice\ is\ the\ current\ crude\ price\ per\ liter\n\ @param\ fixedCost\ is\ the\ fixed\ cost\ plus\ taxes\ per\ liter\n\ \n
+comment1.params=car\ missingKms
+comment1.target=double\ refuel(Car,\ double)
+comment1.text=\n\ Try\ to\ fill\ the\ required\ fuel\ to\ finish\ the\ travel,\ if\n\ the\ tank\ has\ enough\ capacity.\ Otherwise,\ \n\ the\ tank\ will\ be\ filled\ up\ to\ its\ capacity.\n\n\ @param\ car\ is\ the\ car\ object\ that\ has\ the\ tank\ to\ be\ filled\n\ @param\ missingKms\ is\ the\ missing\ kilometers\ to\ travel\ \n\ //Precondition\:\ missingKms\ >\ 0\n\n\ @return\ the\ money\ amount\ to\ pay\ \n
+numComments=2

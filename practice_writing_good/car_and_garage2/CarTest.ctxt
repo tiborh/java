@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ setUp()
+comment1.params=
+comment1.target=void\ testGetTank()
+comment2.params=
+comment2.target=void\ testAmountKilometers()
+comment3.params=
+comment3.target=void\ testAmountFuel()
+comment4.params=
+comment4.target=void\ testTravelIf()
+comment5.params=
+comment5.target=void\ testTravelElse()
+comment6.params=
+comment6.target=void\ testSuiteCar()
+numComments=7

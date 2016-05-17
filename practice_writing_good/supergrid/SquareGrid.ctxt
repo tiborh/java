@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=n
+comment0.target=SquareGrid(int)
+comment1.params=x
+comment1.target=boolean\ inLimits(int)
+comment2.params=x\ y
+comment2.target=java.lang.String\ displayZone(int,\ int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

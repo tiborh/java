@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=min\ max\ fuelQuantum
+comment0.target=PetrolStation(double,\ double,\ double)
+comment0.text=\ \n\ Petrol\ Station\ constructor\n\ \n\ @param\ min\ minimum\ price\ (in\ Euro)\n\ @param\ max\ maximum\ price\ (in\ Euro)\n\ @param\ fuelQuantum\ how\ much\ to\ increment\ fuel\ in\ tank\n\n\ Precondition\ \ min\ >\ 0.0\ and\ max\ >\ 0.0\ and\ min\ <\ max\ and\ fuelQuantum\ >\ 0.0\n\ Postcondition\ min\ <\ price\ <\ max\ \n\ Postcondition\ price\ >\ 0.0\n
+comment1.params=
+comment1.target=double\ getPrice()
+comment1.text=\n\ Return\ the\ price\ of\ the\ fuel\ quantum\n
+comment2.params=
+comment2.target=double\ getFuelQuantum()
+comment3.params=amountEuros
+comment3.target=double\ amountFuelCustomerCanBuy(double)
+comment3.text=\n\ amountFuelCustomerCanBuy\ returns\ the\ amount\ of\ fuel\ the\ Customer\ can\ buy\ with\ "euros"\ euros\ \n\ @param\ amountEuros\:\ the\ amount\ of\ euros\ the\ customer\ can\ spend\n\ @return\ the\ amount\ of\ fuel\ the\ customer\ can\ buy\n\ \n\ Precondition\ \ amountEuros\ >\ 0\n\ Postcondition\ returnValue\ >\=\ 0\n
+comment4.params=liters
+comment4.target=double\ cost(double)
+comment4.text=\n\ cost\ returns\ the\ cost\ of\ "liters"\ euros\ of\ petrol\ \n\ @param\ liters\:\ the\ amount\ of\ liters\ to\ compute\ its\ cost\n\ @return\ the\ cost\ of\ "liters"\ liters\ of\ petrol\ in\ this\ petrol\ station\n\ \n\ Precondition\ \ liters\ >\ 0\n\ Postcondition\ returnValue\ >\=\ 0\n
+comment5.params=tank
+comment5.target=boolean\ canAddMoreFuel(fueltank.FuelTank)
+comment5.text=\n\ canAddMoreFuel\ verifies\ if\ the\ fill's\ Fuel\ Tank\ method\ is\ satisfied\ \n\ @param\ tank\:\ the\ reference\ to\ the\ Fuel\ Tank\n\ @return\ if\ the\ fill's\ Fuel\ Tank\ method\ is\ satisfied\n\ \n\ Precondition\ \ tank\ \!\=\ NULL\n\ Postcondition\ returnValue\ \=\=\ (fuelQuantum\ <\=\ tank.getCapacity()\ -\ getTankLevel())\n
+comment6.params=car
+comment6.target=double\ howMuchCostFillTank(Car)
+comment6.text=\n\ howMuchCostFillTank\n\ @param\ car\:\ the\ car\ to\ fill\ up\ and\ give\ the\ price\ for\ it\n\ @return\ the\ amount\ of\ money\ necessary\ to\ fill\ the\ tank\n
+comment7.params=car\ amountEuros
+comment7.target=double\ fillEuros(Car,\ double)
+comment7.text=\n\ fillEuros\ the\ customer\ can\ buy\ "amountEuros"\ euros\ of\ fuel\n\ the\ car's\ tank\ is\ filled\ to\ its\ maximum\ capacity\n\ @param\ car\:\ reference\ to\ the\ customer's\ car's\ tank\n\ @param\ amountEuros\:\ amount\ of\ money\ the\ customer\ is\ willing\ to\ spend\n\ @return\ the\ amount\ of\ euros\ that\ the\ Customer\ did\ not\ spend\n\ \n\ Precondition\ tank\ \!\=\ NULL\n\ Postcondition\ tankLevel\ >\=\ initial\ tankLevel\n
+numComments=8

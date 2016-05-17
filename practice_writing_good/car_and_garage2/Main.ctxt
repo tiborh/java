@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=argv
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ Integration\ test\ to\ check\ working\ of\ FuelTank,\ Car,\ GasStation\ modules.\n\ Results\ are\ printed\ out,\ for\ visual\ check.\n\ \n\ @attrib\ argv\ unused\n
+numComments=1

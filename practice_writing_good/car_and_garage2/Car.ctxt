@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=tank\ consumption
+comment0.target=Car(fueltank.FuelTank,\ double)
+comment0.text=\n\ Constructor\ for\ Car\n\ \n\ @param\ tank\ the\ tank\ of\ the\ car\ of\ type\ FuelTank\n\ @param\ consumption\ the\ fuel\ consumption\ of\ the\ car\ (litre/km)\n
+comment1.params=
+comment1.target=fueltank.FuelTank\ getTank()
+comment1.text=\n\ In\ order\ to\ give\ access\ to\ fueltank\ accessor\ methods\ but\ not\ access\n\ to\ change\ the\ values\ of\ the\ tank\ of\ the\ car\n\ @return\ a\ copy\ of\ the\ fuel\ tank\n
+comment2.params=amountFuel
+comment2.target=double\ amountKilometers(double)
+comment2.text=\n\ How\ many\ kms\ the\ car\ can\ run\ on\ a\ given\ amount\ of\ fuel?\n\ @param\ amountFuel\ the\ amount\ of\ fuel\ available\n\ @return\ number\ of\ kilometers\n
+comment3.params=km
+comment3.target=double\ amountFuel(double)
+comment3.text=\n\ How\ much\ fuel\ is\ needed\ for\ the\ car\ to\ run\ a\ given\ number\ of\ kms?\n\ @param\ km\ number\ of\ kilometres\ to\ run\n\ @return\ litres\ of\ fuel\ needed\n
+comment4.params=km
+comment4.target=double\ travel(double)
+comment4.text=\n\ how\ much\ fuel\ do\ you\ need\ to\ fill\ into\ the\ tank\ of\ the\ car\n\ to\ travel\ a\ given\ number\ of\ kilometres,\ \n\ \n\ <li>if\ the\ tank\ capacity\ is\ smaller\ than\ the\ fuel\ needed,\ \n\ \ \ the\ amount\ is\ given\ to\ fill\ it\ up\ full\n\ <li>if\ the\ tank\ has\ more\ than\ needed,\ zero\ is\ returned\n\ \n\ @param\ km\ number\ of\ kilometres\ to\ travel\n\ @return\ the\ number\ of\ litres\ to\ fill\ the\ tank\ up\ with\n
+numComments=5

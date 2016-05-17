@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MinMaxRand()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ MinMaxRand\n
+comment1.params=min\ max
+comment1.target=MinMaxRand(double,\ double)
+comment2.params=
+comment2.target=double\ getVal()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=argv
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\ \n\ argv[0]\:\ how\ many\ numbers?\n\ argv[1]\:\ minimum\ value\n\ argv[2]\:\ maximum\ value\n
+numComments=5

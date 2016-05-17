@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PetrolStationTest()
+comment0.text=\n\ Default\ constructor\ for\ test\ class\ PetrolStationTest\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment2.params=
+comment2.target=void\ testFillEurosZero()
+comment2.text=\n\ Zero\ Euros\ to\ spend\n
+comment3.params=
+comment3.target=void\ testFillEurosLargeIncr()
+comment3.text=\n\ large\ increment\n
+numComments=4
