@@ -17,7 +17,7 @@ public class FuelTankTest
     private FuelTank ft;
     private int capacity;
     private int initial;
-    
+                
     @Before
     public void setUp() throws Exception {
         capacity = 40;
@@ -28,7 +28,6 @@ public class FuelTankTest
     @Test
     public void testGetTankLevel()
     {
-        ft.resetLevel();
         assertEquals(initial,ft.getTankLevel(),0);
         double testVal = 12;
         ft.fill(testVal);
@@ -42,9 +41,14 @@ public class FuelTankTest
     }
     
     @Test
+    public void testCapacity()
+    {
+        assertEquals(ft.getCapacity(),ft.getTankMax(),0);
+    }
+        
+    @Test
     public void testEmpty()
     {
-        ft.resetLevel();
         assertTrue(ft.empty());
         ft.fill(1);
         assertFalse(ft.empty());
@@ -53,21 +57,46 @@ public class FuelTankTest
     @Test
     public void testHalfFullTank()
     {
-        ft.resetLevel();
         ft.fill(ft.getTankMax()/2);
         assertEquals(ft.getTankMax()/2,ft.getTankLevel(),0);
+    }
+    
+    @Test
+    public void testFullTank() {
+        assertFalse(ft.full());
     }
  
     @Test
     public void testConsume()
     {
-        ft.resetLevel();
         double half = ft.getTankMax()/2;
         ft.fill(ft.getTankMax());
         ft.consume(half);
-        assertEquals(ft.getTankLevel(),half,0);
-        
+        assertEquals(ft.getTankLevel(),half,0);        
     }
     
- }
+    @Test
+    public void testFillUp()
+    {
+        double savedLevel = ft.getTankLevel();
+        double filledAmount = ft.fill();
+        assertEquals(savedLevel + filledAmount,ft.getTankMax(),0);
+        assertEquals(ft.fill(),0.0,0);
+    }
+    
+    @Test
+    public void testClone()
+    {
+        FuelTank ftclone = ft.clone();
+        double ta = 2.0;
+        ftclone.fill(ta);
+        assertEquals(ft.getTankLevel()+ta,ftclone.getTankLevel(),0.0);
+    }
+        
+    @Test
+    public void firstFuelTestRecord()
+    {
+    }
+}
+
 

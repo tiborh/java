@@ -20,14 +20,14 @@ public class FuelTank
      * @param tankMax   the capacity of the tank
      * @param tankLevel the amount of fuel in the tank 
      */
-    FuelTank(double tankMax, double tankLevel)
+    public FuelTank(double tankMax, double tankLevel)
     {
         this.tankMax   = tankMax;
         this.tankLevel = tankLevel;
         this.initialLevel = tankLevel;
     }
 
-    protected void resetLevel() { tankLevel = initialLevel; }
+    //protected void resetLevel() { tankLevel = initialLevel; }
     
     /*
      * Return the amount of fuel in the tank
@@ -40,6 +40,12 @@ public class FuelTank
      * 
      */
     public double getTankMax(){ return tankMax; }
+
+    /*
+     * Return the capacity of the tank
+     * 
+     */    
+    public double getCapacity(){ return this.getTankMax(); }
 
     /*
      * Return true if tank level is empty, 
@@ -63,6 +69,19 @@ public class FuelTank
      * Postcondition: not empty()
      */
     public void fill(double amount){ tankLevel = tankLevel + amount; } 
+    
+    public double fill()
+    {
+        double amountFilled = this.tankMax - this.getTankLevel();
+        this.tankLevel = this.tankMax;
+        return amountFilled;
+    }
+    
+    public FuelTank clone()
+    {
+        FuelTank ft = new FuelTank(this.tankMax,this.tankLevel);
+        return ft;
+    }
     
     /*
      * Spend fuel to the tank
