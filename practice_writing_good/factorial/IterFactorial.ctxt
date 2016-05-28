@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=n
+comment0.target=long\ factorial(long)
+comment0.text=\n\ Iterative\ factorial\n
+comment1.params=n\ averageTime\ stars\ c
+comment1.target=void\ displayStars(long,\ long,\ int,\ char)
+comment1.text=\ \n\ Displays\ a\ line\ of\ stars.\n\ The\ length\ of\ the\ line\ is\ proportional\ to\ the\ average\ execution\ time\n\ of\ the\ algorithm\n\ \n
+comment2.params=n\ times
+comment2.target=void\ test(long,\ long)
+comment2.text=\ \n\ Test\ method\:\ calls\ factorial(n)\ the\ number\ of\ \n\ given\ by\ times\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

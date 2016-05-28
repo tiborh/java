@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Fibonacci()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Fibonacci\n
+comment1.params=n
+comment1.target=long\ calc(int)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=argv
+comment3.target=void\ main(java.lang.String[])
+comment3.text=main\ in\ Fibonacci
+numComments=4

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ clearInvoked()
+comment1.params=
+comment1.target=int\ getInvoked()
+comment2.params=
+comment2.target=void\ init()
+comment3.params=n
+comment3.target=long\ recursive(int)
+comment3.text=\n\ Cascade\ recursion\ implementation\:\ fib(n)\ \=\ fib(n-1)+fib(n-2)\n
+comment4.params=n\ x\ y
+comment4.target=long\ fibAux(int,\ int,\ int)
+comment4.text=\n\ Linear\ Tail\ recursion\ implementation\n
+comment5.params=n
+comment5.target=long\ recursive2(int)
+comment6.params=n
+comment6.target=long\ direct(int)
+comment6.text=\n\ Direct\ implementation\n
+comment7.params=n
+comment7.target=void\ test(int)
+comment7.text=\n\ Calls\ the\ three\ implementations\ and\ compares\ the\ average\ time\n
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

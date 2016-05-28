@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=n
+comment0.target=long\ calc(int)
+comment1.params=argv
+comment1.target=void\ main(java.lang.String[])
+comment1.text=main\ in\ Fibonacci3
+numComments=2
