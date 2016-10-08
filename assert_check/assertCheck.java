@@ -9,7 +9,8 @@ public class assertCheck
 {
     public static void main(String[] argv)
     {
-        assert(1==1); // pass
+        int a = 1;
+        assert(a==1); // pass
         System.out.println("First assert has been passed.");
         try {
             assert(1>1);  // fail
