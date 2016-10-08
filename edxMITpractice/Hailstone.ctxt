@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Hailstone()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Hailstone\n\ Initialising\ Hailstone\ container\ as\ empty\n
+comment1.params=startNum
+comment1.target=Hailstone(int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Hailstone\ initialising\ the\ sequence\ starting\ with\ an\ input\ number\n\ @param\ startNum\ \ Starting\ number\ in\ the\ hailstone\ sequence.\ \ Assumes\ startNum\ >\ 0.\n\ \n
+comment2.params=inStr
+comment2.target=Hailstone(java.lang.String)
+comment2.text=\n\ Constructor\ for\ objects\ of\ class\ Hailstone\ initialising\ the\ sequence\ starting\ with\ the\ number\ parsed\ from\ an\ input\ string.\n\ @param\ inStr\ \ Starting\ number\ as\ string\ in\ the\ hailstone\ sequence.\ \ Assumes\ isNumeric(inStr).\n\ \n
+comment3.params=startNum
+comment3.target=void\ calculate(int)
+comment3.text=\n\ Calculates\ the\ items\ of\ the\ hailstone\ sequence\n\ @param\ startNum\ the\ number\ to\ start\ with,\ the\ first\ member\ of\ the\ sequence.\ Assumes\ num\ >\ 0.\n\ \n
+comment4.params=
+comment4.target=void\ print()
+comment4.text=\n\ Prints\ out\ the\ hailstone\ sequence.\n
+comment5.params=
+comment5.target=int\ getMax()
+comment5.text=\n\ Finds\ the\ maximum\ element\ of\ the\ hailstone\ sequence\n\ @return\ macimum\ element\ of\ the\ list\n
+comment6.params=s
+comment6.target=boolean\ isNumeric(java.lang.String)
+comment6.text=\n\ Checks\ if\ an\ input\ string\ is\ numeric\n\ @param\ s\ input\ string\n\ @return\ true\ if\ numeric,\ false\ if\ not\ numeric\ \n
+comment7.params=argv
+comment7.target=void\ main(java.lang.String[])
+comment7.text=\n\ Checks\ command\ line\ input\ for\ valid\ starting\ numbers\n\ @param\ argv\ input\ strings\n
+numComments=8
