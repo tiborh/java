@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ initialize()
+comment1.params=inputNumber\ expectedResult
+comment1.target=PrimeNumberCheckerTest(java.lang.Integer,\ java.lang.Boolean)
+comment2.params=
+comment2.target=java.util.Collection\ primeNumbers()
+comment3.params=
+comment3.target=void\ testPrimeNumberChecker()
+numComments=4

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=message
+comment0.target=MessageUtil(java.lang.String)
+comment0.text=\n\ value\ to\ msg\n
+comment1.params=
+comment1.target=java.lang.String\ printMessage()
+comment1.text=\n\ return\ the\ msg\ only\n\ \n\ @return\ \ \ \ \ message\n
+comment2.params=
+comment2.target=java.lang.String\ salutationMessage()
+comment2.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\ \n\ @return\ \ \ \ \ greeting\ +\ message\n
+numComments=3

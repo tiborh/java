@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=test\ t
+comment0.target=void\ addError(org.junit.Test,\ java.lang.Throwable)
+comment1.params=test\ t
+comment1.target=void\ addFailure(org.junit.Test,\ junit.framework.AssertionFailedError)
+comment2.params=
+comment2.target=void\ testAdd()
+comment3.params=
+comment3.target=void\ stop()
+numComments=4

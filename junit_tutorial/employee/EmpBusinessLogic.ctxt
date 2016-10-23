@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=employeeDetails
+comment0.target=double\ calculateYearlySalary(EmployeeDetails)
+comment1.params=employeeDetails
+comment1.target=double\ calculateAppraisal(EmployeeDetails)
+numComments=2

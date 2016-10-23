@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ testAssertionsEnabled()
+comment0.text=\n\ basic\ test\ of\ JUnit\n\ @return\ AssertionError.class\n
+comment1.params=
+comment1.target=void\ testAdd()
+comment1.text=\n\ string\ equality\ check\n
+numComments=2
