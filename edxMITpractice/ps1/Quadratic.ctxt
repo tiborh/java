@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=a\ b\ c
+comment0.target=java.util.Set\ roots(long,\ long,\ long)
+comment0.text=\n\ Find\ the\ integer\ roots\ of\ a\ quadratic\ equation,\ ax^2\ +\ bx\ +\ c\ \=\ 0.\n\ @param\ a\ coefficient\ of\ x^2\n\ @param\ b\ coefficient\ of\ x\n\ @param\ c\ constant\ term.\ \ Requires\ that\ a,\ b,\ and\ c\ are\ not\ ALL\ zero.\n\ @return\ all\ integers\ x\ such\ that\ ax^2\ +\ bx\ +\ c\ \=\ 0.\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Main\ function\ of\ program.\n\ @param\ args\ command-line\ arguments\n
+numComments=2

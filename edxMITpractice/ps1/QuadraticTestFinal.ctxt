@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ testOneDegenerateRoot()
+comment0.text=\n\ Additional\ testing\ strategy\n\ Partitions\:\n\ \ \ \ a\=0\n\ \ \ \ roots\ are\ integer,\ real,\ or\ complex\n\ \n\ Each\ of\ these\ parts\ is\ covered\ by\ at\ least\ one\ test\ case\ below.\n
+comment1.params=
+comment1.target=void\ testRealRoots()
+comment2.params=
+comment2.target=void\ testComplexRoots()
+comment3.params=elements
+comment3.target=java.util.Set\ makeSet(int[])
+numComments=4

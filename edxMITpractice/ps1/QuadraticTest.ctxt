@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ testAssertionsEnabled()
+comment0.text=\n\ Testing\ strategy\ (following\ the\ example\ of\ the\ Testing\ reading)\:\n\ \n\ Partitions\:\n\ \ \ \ a>0,\ a<0,\ a\=0\n\ \ \ \ b>0,\ b<0,\ b\=0\n\ \ \ \ c>0,\ c<0,\ c\=0\n\ \ \ \ \ \ \ \ (but\ note\ that\ we\ can't\ have\ a\=b\=c\=0,\ because\ the\ spec\ forbids\ that)\n\ \ \ \ \n\ \ \ \ \#\ roots\ returned\:\ 0,\ 1,\ or\ 2\ \ (a\ quadratic\ equation\ can't\ have\ more\ than\ 2\ roots)\n\ \ \ \ a\ root\ is\ positive,\ negative,\ or\ zero\n\ \ \ \ absolute\ value\ of\ root\ is\ small\ or\ large\ (as\ close\ to\ Integer.MAX_VALUE\ as\ possible)\n\ \n\ Each\ of\ these\ parts\ is\ covered\ by\ at\ least\ one\ test\ case\ below.\n
+comment1.params=
+comment1.target=void\ testPositiveRoots()
+comment2.params=
+comment2.target=void\ testNegativeRoots()
+comment3.params=
+comment3.target=void\ testOppositeSignRoots()
+comment4.params=
+comment4.target=void\ testOneZeroRoot()
+comment5.params=
+comment5.target=void\ testOneRoot()
+comment6.params=
+comment6.target=void\ testBothZeroRoots()
+comment7.params=
+comment7.target=void\ testLargeRoots()
+comment8.params=elements
+comment8.target=java.util.Set\ makeSet(int[])
+numComments=9
