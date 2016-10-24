@@ -3,6 +3,7 @@ package ps2;
 
 import java.util.List;
 import java.util.Set;
+import java.util.HashSet;
 import java.util.Arrays;
 import java.time.Duration;
 import java.time.Instant;
@@ -52,6 +53,8 @@ public class Extract {
      *         include a username at most once.
      */
     public static Set<String> getMentionedUsers(List<Tweet> tweets) {
-        throw new RuntimeException("not implemented");
+        assert(!tweets.isEmpty());
+        Set<String> users = new HashSet<String>();
+        return(users);
     }
 }

@@ -2,7 +2,11 @@
 comment0.params=
 comment0.target=void\ testAssertionsEnabled()
 comment1.params=
-comment1.target=void\ testGetTimespanTwoTweets()
+comment1.target=void\ testGetTimespanOneTweet()
 comment2.params=
-comment2.target=void\ testGetMentionedUsersNoMention()
-numComments=3
+comment2.target=void\ testGetTimespanTwoTweets()
+comment3.params=
+comment3.target=void\ testGetTimespanAllTweets()
+comment4.params=
+comment4.target=void\ testGetMentionedUsersNoMention()
+numComments=5
