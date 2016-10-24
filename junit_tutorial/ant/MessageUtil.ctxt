@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=message
+comment0.target=MessageUtil(java.lang.String)
+comment0.text=\n\ Constructor\n\ @param\ message\ to\ be\ printed\n
+comment1.params=
+comment1.target=java.lang.String\ printMessage()
+comment1.text=prints\ the\ message
+comment2.params=
+comment2.target=java.lang.String\ salutationMessage()
+comment2.text=add\ "Hi\!"\ to\ the\ message
+numComments=3

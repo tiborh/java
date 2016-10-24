@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=id\ author\ text\ timestamp
+comment0.target=Tweet(long,\ java.lang.String,\ java.lang.String,\ java.time.Instant)
+comment0.text=\n\ Make\ a\ Tweet\ with\ a\ known\ unique\ id.\n\ \n\ @param\ id\n\ \ \ \ \ \ \ \ \ \ \ \ unique\ identifier\ for\ the\ tweet,\ as\ assigned\ by\ Twitter.\n\ @param\ author\n\ \ \ \ \ \ \ \ \ \ \ \ Twitter\ username\ who\ wrote\ this\ tweet.\ \ \n\ \ \ \ \ \ \ \ \ \ \ \ Required\ to\ be\ a\ Twitter\ username\ as\ defined\ by\ getAuthor()\ below.\n\ @param\ text\n\ \ \ \ \ \ \ \ \ \ \ \ text\ of\ the\ tweet,\ at\ most\ 140\ characters.\n\ @param\ timestamp\n\ \ \ \ \ \ \ \ \ \ \ \ date/time\ when\ the\ tweet\ was\ sent.\n
+comment1.params=
+comment1.target=long\ getId()
+comment1.text=\n\ @return\ unique\ identifier\ of\ this\ tweet\n
+comment2.params=
+comment2.target=java.lang.String\ getAuthor()
+comment2.text=\n\ @return\ Twitter\ username\ who\ wrote\ this\ tweet.\n\ \ \ \ \ \ \ \ \ A\ Twitter\ username\ is\ a\ nonempty\ sequence\ of\ letters\ (A-Z\ or\n\ \ \ \ \ \ \ \ \ a-z),\ digits,\ underscore\ ("_"),\ or\ hyphen\ ("-").\n\ \ \ \ \ \ \ \ \ Twitter\ usernames\ are\ case-insensitive,\ so\ "jbieber"\ and\ "JBieBer"\n\ \ \ \ \ \ \ \ \ are\ equivalent.\n
+comment3.params=
+comment3.target=java.lang.String\ getText()
+comment3.text=\n\ @return\ text\ of\ this\ tweet,\ at\ most\ 140\ characters\n
+comment4.params=
+comment4.target=java.time.Instant\ getTimestamp()
+comment4.text=\n\ @return\ date/time\ when\ this\ tweet\ was\ sent\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ @see\ Object.toString()\n
+comment6.params=thatObject
+comment6.target=boolean\ equals(java.lang.Object)
+comment6.text=\n\ @see\ Object.equals()\n
+comment7.params=
+comment7.target=int\ hashCode()
+comment7.text=\n\ @see\ Object.hashCode()\n
+numComments=8

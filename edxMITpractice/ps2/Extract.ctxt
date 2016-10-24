@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=tweets
+comment0.target=Timespan\ getTimespan(java.util.List)
+comment0.text=\n\ Get\ the\ time\ period\ spanned\ by\ tweets.\n\ \n\ @param\ tweets\n\ \ \ \ \ \ \ \ \ \ \ \ list\ of\ tweets\ with\ distinct\ ids,\ not\ modified\ by\ this\ method.\n\ @return\ a\ minimum-length\ time\ interval\ that\ contains\ the\ timestamp\ of\n\ \ \ \ \ \ \ \ \ every\ tweet\ in\ the\ list.\n
+comment1.params=tweets
+comment1.target=java.util.Set\ getMentionedUsers(java.util.List)
+comment1.text=\n\ Get\ usernames\ mentioned\ in\ a\ list\ of\ tweets.\n\ \n\ @param\ tweets\n\ \ \ \ \ \ \ \ \ \ \ \ list\ of\ tweets\ with\ distinct\ ids,\ not\ modified\ by\ this\ method.\n\ @return\ the\ set\ of\ usernames\ who\ are\ mentioned\ in\ the\ text\ of\ the\ tweets.\n\ \ \ \ \ \ \ \ \ A\ username-mention\ is\ "@"\ followed\ by\ a\ Twitter\ username\ (as\n\ \ \ \ \ \ \ \ \ defined\ by\ Tweet.getAuthor()'s\ spec).\n\ \ \ \ \ \ \ \ \ The\ username-mention\ cannot\ be\ immediately\ preceded\ or\ followed\ by\ any\n\ \ \ \ \ \ \ \ \ character\ valid\ in\ a\ Twitter\ username.\n\ \ \ \ \ \ \ \ \ For\ this\ reason,\ an\ email\ address\ like\ bitdiddle@mit.edu\ does\ NOT\ \n\ \ \ \ \ \ \ \ \ contain\ a\ mention\ of\ the\ username\ mit.\n\ \ \ \ \ \ \ \ \ Twitter\ usernames\ are\ case-insensitive,\ and\ the\ returned\ set\ may\n\ \ \ \ \ \ \ \ \ include\ a\ username\ at\ most\ once.\n
+numComments=2

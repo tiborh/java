@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=start\ end
+comment0.target=Timespan(java.time.Instant,\ java.time.Instant)
+comment0.text=\n\ Make\ a\ Timespan.\n\ \n\ @param\ start\n\ \ \ \ \ \ \ \ \ \ \ \ starting\ date/time\n\ @param\ end\n\ \ \ \ \ \ \ \ \ \ \ \ ending\ date/time.\ Requires\ end\ >\=\ start.\n
+comment1.params=
+comment1.target=java.time.Instant\ getStart()
+comment1.text=\n\ @return\ the\ starting\ point\ of\ the\ interval\n
+comment2.params=
+comment2.target=java.time.Instant\ getEnd()
+comment2.text=\n\ @return\ the\ ending\ point\ of\ the\ interval\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ @see\ Object.toString()\n
+comment4.params=thatObject
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\n\ @see\ Object.equals()\n
+comment5.params=
+comment5.target=int\ hashCode()
+comment5.text=\n\ @see\ Object.hashCode()\n
+numComments=6
