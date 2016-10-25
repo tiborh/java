@@ -23,14 +23,17 @@ public class ExtractTest {
      *       (Tested in MyExtractTest, because against pre-conditions: same ID)
      * 
      * Test GetMentionedUsers
-     * 1. No @ in the text
-     * 2. @ in the text but preceded by other character
-     * 3. @username in the text by followed by other character (e.g. @username's)
-     * 4. @username in the text with capitalisation: e.g. @Username or @uSerName
+     * 1. No @ in the text (tweet11)
+     * 2. @ in the text but 
+     *    a. preceded by other character (tweet0)
+     *    b. stands alone (tweet 10)
+     *    c. is followed by an illegal character, su
+     * 3. @username in the text by followed by other character (e.g. @username's) (tweet11)
+     * 4. @username in the text with capitalisation: e.g. @Username or @uSerName (tweet13)
      * 5. @username mentioned several times
-     *    a. in one tweet
-     *    b. in various tweets
-     * 6. several usernames in the text
+     *    a. in one tweet (tweet15)
+     *    b. in various tweets (@rivest)
+     * 6. several usernames in the text (tweet11)
      * 7. it should not cause a problem if a tweet is repeated
      *    (Tested in MyExtractTest, because against pre-conditions: same ID)
      */
@@ -40,12 +43,21 @@ public class ExtractTest {
     private static final Instant d2 = Instant.parse("2016-02-17T11:00:00Z");
     private static final Instant d3 = Instant.now();
     private static final Instant d4 = Instant.parse("2100-01-01T00:00:00Z");
+    private static final Instant d5 = Instant.parse("2100-01-01T00:00:10Z");
     
     private static final Tweet tweet0 = new Tweet(0, "alvin", "let's talk about n8ure or work@home.", d0);
     private static final Tweet tweet1 = new Tweet(1, "alyssa", "is't reasonable 2 talk about rivest so much?", d1);
     private static final Tweet tweet2 = new Tweet(2, "bbitdiddle", "rivest talk in 30 minutes #hype", d2);
     private static final Tweet tweet3 = new Tweet(3, "alyssa", "i'll quit", d3);
     private static final Tweet tweet4 = new Tweet(4, "alvin", "anyone around?", d4);
+    
+    private static final Tweet tweet10 = new Tweet(10, "alvin", "let's talk about n8ure or work @ home.", d0);
+    private static final Tweet tweet11 = new Tweet(11, "alyssa", 
+        "is't reasonable 2 talk about @rivest's big mouth so much, @bbitdiddle?", d1);
+    private static final Tweet tweet12 = new Tweet(12, "bbitdiddle", "@rivest talk in 30 minutes #hype", d2);
+    private static final Tweet tweet13 = new Tweet(13, "alyssa", "i'll quit talking about @AlF", d3);
+    private static final Tweet tweet14 = new Tweet(14, "alvin", "anyone around, @alf?", d4);
+    private static final Tweet tweet15 = new Tweet(15, "alf", "@Alf speaking. anyone for @aLf?", d5);
     
     private static final List<Tweet> allTweets = Arrays.asList(tweet4,tweet1,tweet3,tweet2,tweet0);
     
