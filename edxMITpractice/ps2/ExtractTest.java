@@ -23,14 +23,14 @@ public class ExtractTest {
      *       (Tested in MyExtractTest, because against pre-conditions: same ID)
      * 
      * Test GetMentionedUsers
-     * 1. No @ in the text
-     * 2. @ in the text but preceded by other character
-     * 3. @username in the text by followed by other character (e.g. @username's)
-     * 4. @username in the text with capitalisation: e.g. @Username or @uSerName
-     * 5. @username mentioned several times
+     * 1. No @ in the text (no find)
+     * 2. @ in the text but preceded by other character (no find)
+     * 3. @username in the text by followed by other character (e.g. @username's) (find @username only)
+     * 4. @username in the text with capitalisation: e.g. @Username or @uSerName (find as one only)
+     * 5. @username mentioned several times (find one only)
      *    a. in one tweet
      *    b. in various tweets
-     * 6. several usernames in the text
+     * 6. several usernames in the text (find all))
      * 7. it should not cause a problem if a tweet is repeated
      *    (Tested in MyExtractTest, because against pre-conditions: same ID)
      */
