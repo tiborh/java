@@ -7,6 +7,8 @@ import java.util.HashSet;
 import java.util.Arrays;
 import java.time.Duration;
 import java.time.Instant;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Extract consists of methods that extract information from a list of tweets.
@@ -55,6 +57,33 @@ public class Extract {
     public static Set<String> getMentionedUsers(List<Tweet> tweets) {
         assert(!tweets.isEmpty());
         Set<String> users = new HashSet<String>();
+        
+        for (Tweet aTweet : tweets) {
+            String tweetStr = aTweet.toString();
+            Pattern p = Pattern.compile("[^\\w\\d-]@[\\w\\d-]+\\b", Pattern.CASE_INSENSITIVE);
+            Matcher m = p.matcher(tweetStr);
+            while(m.find()) {
+                users.add(tweetStr.substring(m.start()+2, m.end()).toLowerCase());
+            }
+        }
+                
         return(users);
+    }
+    
+    /**
+     * Get the authors from a list of tweets.
+     * 
+     * @param tweets list of Tweet messages
+     * @return returns the list of authors from tweets
+     */
+    public static Set<String> getAuthors(List<Tweet> tweets) {
+        
+        Set<String> authors = new HashSet<String>();
+        
+        for (Tweet aTweet : tweets) {
+            authors.add(aTweet.getAuthor());
+        }
+        
+        return authors;
     }
 }

@@ -54,6 +54,11 @@ public class MyExtractTest
     }
     
     @Test(expected=AssertionError.class)
+    public void testAssertionsEnabled() {
+        assert false; // make sure assertions are enabled with VM argument: -ea
+    }
+    
+    @Test(expected=AssertionError.class)
     public void testGetTimespanZeroTweet()
     {
         Timespan timespan = Extract.getTimespan(Arrays.asList());               
