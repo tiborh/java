@@ -1,0 +1,43 @@
+Class documentation
+<---- javadoc command: ---->
+/usr/lib/jvm/java-8-openjdk-amd64/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+/usr/share/bluej/bluejcore.jar:/usr/share/bluej/junit-4.8.2.jar:/home/tibor/repos/java/libraries/commons-lang3-3.4.jar:/home/tibor/repos/java/libraries/commons-lang3-3.4-javadoc.jar:/usr/share/bluej/userlib/pi4j-core.jar:/usr/share/bluej/userlib/pi4j-gpio-extension.jar:/usr/share/bluej/userlib/pi4j-device.jar:/usr/share/bluej/userlib/pi4j-service.jar:/home/tibor/repos/java/access
+-d
+/home/tibor/repos/java/access/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/usr/share/bluej/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/home/tibor/repos/java/access/Bool.java
+<---- end of javadoc command ---->
+Loading source file /home/tibor/repos/java/access/Bool.java...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_111
+Building tree for all the packages and classes...
+Generating /home/tibor/repos/java/access/doc/Bool.html...
+/home/tibor/repos/java/access/Bool.java:85: warning - @param argument "one" is not a parameter name.
+Generating /home/tibor/repos/java/access/doc/package-frame.html...
+Generating /home/tibor/repos/java/access/doc/package-summary.html...
+Generating /home/tibor/repos/java/access/doc/constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating /home/tibor/repos/java/access/doc/allclasses-frame.html...
+Generating /home/tibor/repos/java/access/doc/allclasses-noframe.html...
+Generating /home/tibor/repos/java/access/doc/index.html...
+Generating /home/tibor/repos/java/access/doc/stylesheet.css...
+1 warning
