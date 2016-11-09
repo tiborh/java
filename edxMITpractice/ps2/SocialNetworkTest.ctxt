@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ testAssertionsEnabled()
+comment0.text=\n\ guessFollowsGrap\n\ 1.\ Check\ for\ empty\ list\ (returns\ empty\ Map)\n\ 2.\ Check\ for\ non-empty\ list,\ but\ no\ mentions\ (returns\ Map\ with\ empty\ hash(es))\n\ 3.\ Check\ for\ non-empty\ list\ with\ multiple\ finds\n\ 4.\ Check\ that\ an\ author\ is\ not\ followed\ by\ himself\ (included\ in\ above)\n\ \n\ influencers\n\ 1.\ test\ empty\n\ 2.\ test\ when\ all\ is\ zero\n\ 3.\ test\ equality\n\ 4.\ test\ different\ ones\n\ 5.\ test\ case\ insensitivity\n\ 6.\ test\ if\ all\ equal\ rank\ is\ returned\n
+comment1.params=
+comment1.target=void\ testGuessFollowsGraphEmpty()
+comment2.params=
+comment2.target=void\ testGuessFollowsGraphNoFollow()
+comment3.params=
+comment3.target=void\ testGuessFollowsGraphMultiFollow()
+comment4.params=
+comment4.target=void\ testInfluencersEmpty()
+comment5.params=
+comment5.target=void\ testInfluencersToSort1()
+comment6.params=
+comment6.target=void\ testInfluencersToSort2()
+comment7.params=
+comment7.target=void\ testInfluencersEqual()
+numComments=8

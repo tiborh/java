@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=tweets
+comment0.target=java.util.Map\ guessFollowsGraph(java.util.List)
+comment0.text=\n\ Guess\ who\ might\ follow\ whom,\ from\ evidence\ found\ in\ tweets.\n\ \n\ @param\ tweets\n\ \ \ \ \ \ \ \ \ \ \ \ a\ list\ of\ tweets\ providing\ the\ evidence,\ not\ modified\ by\ this\n\ \ \ \ \ \ \ \ \ \ \ \ method.\n\ @return\ a\ social\ network\ (as\ defined\ above)\ in\ which\ Ernie\ follows\ Bert\n\ \ \ \ \ \ \ \ \ if\ and\ only\ if\ there\ is\ evidence\ for\ it\ in\ the\ given\ list\ of\n\ \ \ \ \ \ \ \ \ tweets.\n\ \ \ \ \ \ \ \ \ One\ kind\ of\ evidence\ that\ Ernie\ follows\ Bert\ is\ if\ Ernie\n\ \ \ \ \ \ \ \ \ @-mentions\ Bert\ in\ a\ tweet.\ This\ must\ be\ implemented.\ Other\ kinds\n\ \ \ \ \ \ \ \ \ of\ evidence\ may\ be\ used\ at\ the\ implementor's\ discretion.\n\ \ \ \ \ \ \ \ \ All\ the\ Twitter\ usernames\ in\ the\ returned\ social\ network\ must\ be\n\ \ \ \ \ \ \ \ \ either\ authors\ or\ @-mentions\ in\ the\ list\ of\ tweets.\n
+comment1.params=followsGraph
+comment1.target=java.util.List\ influencers(java.util.Map)
+comment1.text=\n\ Find\ the\ people\ in\ a\ social\ network\ who\ have\ the\ greatest\ influence,\ in\n\ the\ sense\ that\ they\ have\ the\ most\ followers.\n\ \n\ @param\ followsGraph\n\ \ \ \ \ \ \ \ \ \ \ \ a\ social\ network\ (as\ defined\ above)\n\ @return\ a\ list\ of\ all\ distinct\ Twitter\ usernames\ in\ followsGraph,\ in\n\ \ \ \ \ \ \ \ \ descending\ order\ of\ follower\ count.\n
+comment2.params=tweets
+comment2.target=java.util.Set\ getMentionedUsers_Good(java.util.List)
+numComments=3

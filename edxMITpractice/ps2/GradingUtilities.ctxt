@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=d1
+comment0.target=Tweet\ createTweetWithDate(java.time.Instant)
+comment1.params=text
+comment1.target=Tweet\ createTweetWithText(java.lang.String)
+comment2.params=author
+comment2.target=Tweet\ createTweetWithAuthor(java.lang.String)
+comment3.params=strings
+comment3.target=java.util.Set\ setToLowerCase(java.util.Set)
+comment4.params=strings
+comment4.target=boolean\ setIsCaseInsensitiveUnique(java.util.Set)
+numComments=5

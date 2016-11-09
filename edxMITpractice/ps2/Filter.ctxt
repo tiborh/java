@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=tweets\ username
+comment0.target=java.util.List\ writtenBy(java.util.List,\ java.lang.String)
+comment0.text=\n\ Find\ tweets\ written\ by\ a\ particular\ user.\n\ \n\ @param\ tweets\n\ \ \ \ \ \ \ \ \ \ \ \ a\ list\ of\ tweets\ with\ distinct\ ids,\ not\ modified\ by\ this\ method.\n\ @param\ username\n\ \ \ \ \ \ \ \ \ \ \ \ Twitter\ username,\ required\ to\ be\ a\ valid\ Twitter\ username\ as\n\ \ \ \ \ \ \ \ \ \ \ \ defined\ by\ Tweet.getAuthor()'s\ spec.\n\ @return\ all\ and\ only\ the\ tweets\ in\ the\ list\ whose\ author\ is\ username,\n\ \ \ \ \ \ \ \ \ in\ the\ same\ order\ as\ in\ the\ input\ list.\n
+comment1.params=tweets\ timespan
+comment1.target=java.util.List\ inTimespan(java.util.List,\ Timespan)
+comment1.text=\n\ Find\ tweets\ that\ were\ sent\ during\ a\ particular\ timespan.\n\ \n\ @param\ tweets\n\ \ \ \ \ \ \ \ \ \ \ \ a\ list\ of\ tweets\ with\ distinct\ ids,\ not\ modified\ by\ this\ method.\n\ @param\ timespan\n\ \ \ \ \ \ \ \ \ \ \ \ timespan\n\ @return\ all\ and\ only\ the\ tweets\ in\ the\ list\ that\ were\ sent\ during\ the\ timespan,\n\ \ \ \ \ \ \ \ \ in\ the\ same\ order\ as\ in\ the\ input\ list.\n
+comment2.params=tweets\ words
+comment2.target=java.util.List\ containing(java.util.List,\ java.util.List)
+comment2.text=\n\ Find\ tweets\ that\ contain\ certain\ words.\n\ \n\ @param\ tweets\n\ \ \ \ \ \ \ \ \ \ \ \ a\ list\ of\ tweets\ with\ distinct\ ids,\ not\ modified\ by\ this\ method.\n\ @param\ words\n\ \ \ \ \ \ \ \ \ \ \ \ a\ list\ of\ words\ to\ search\ for\ in\ the\ tweets.\ \n\ \ \ \ \ \ \ \ \ \ \ \ A\ word\ is\ a\ nonempty\ sequence\ of\ nonspace\ characters.\n\ @return\ all\ and\ only\ the\ tweets\ in\ the\ list\ such\ that\ the\ tweet\ text\ (when\ \n\ \ \ \ \ \ \ \ \ represented\ as\ a\ sequence\ of\ nonempty\ words\ bounded\ by\ space\ characters\ \n\ \ \ \ \ \ \ \ \ and\ the\ ends\ of\ the\ string)\ includes\ *at\ least\ one*\ of\ the\ words\ \n\ \ \ \ \ \ \ \ \ found\ in\ the\ words\ list.\ Word\ comparison\ is\ not\ case-sensitive,\n\ \ \ \ \ \ \ \ \ so\ "Obama"\ is\ the\ same\ as\ "obama".\ \ The\ returned\ tweets\ are\ in\ the\n\ \ \ \ \ \ \ \ \ same\ order\ as\ in\ the\ input\ list.\n
+numComments=3
