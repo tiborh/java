@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=legA\ legB\ hypotenuse
+comment0.target=RightTriangle2(double,\ double,\ double)
+comment0.text=\ Make\ a\ right\ triangle.\n\ @param\ legA,\ legB\ \ the\ two\ legs\ of\ the\ triangle\n\ @param\ hypotenuse\ \ \ \ the\ hypotenuse\ of\ the\ triangle.\nC*\ \ \ \ \ \ \ *\ \ \ \ \ \ \ \ Requires\ hypotenuse^2\ \=\ legA^2\ +\ legB^2\ \n\ \ \ \ \ \ \ \ \ \ \ (within\ the\ error\ tolerance\ of\ double\ arithmetic)\n
+comment1.params=
+comment1.target=java.util.List\ getAllSides()
+comment1.text=\ Get\ all\ the\ sides\ of\ the\ triangle.\n\ \ @return\ three-element\ array\ with\ the\ triangle's\ side\ lengths\n
+comment2.params=
+comment2.target=double\ getHypotenuse()
+comment2.text=@return\ length\ of\ the\ triangle's\ hypotenuse
+comment3.params=factor
+comment3.target=RightTriangle2\ scale(double)
+comment3.text=\ @param\ factor\ to\ multiply\ the\ sides\ by\n\ \ @return\ a\ triangle\ made\ from\ this\ triangle\ by\ \n\ \ multiplies\ all\ side\ lengths\ by\ factor.\n
+comment4.params=
+comment4.target=RightTriangle2\ regularize()
+comment4.text=\ @return\ a\ regular\ triangle\ made\ from\ this\ triangle.\n\ \ A\ regular\ right\ triangle\ is\ one\ in\ which\n\ \ both\ legs\ have\ the\ same\ length.\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=argv
+comment6.target=void\ main(java.lang.String[])
+numComments=7
