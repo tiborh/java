@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import org.apache.commons.lang3.ArrayUtils;
 
 /** Represents an immutable right triangle. */
 class RightTriangle2 {
@@ -21,9 +22,18 @@ class RightTriangle2 {
      *           (within the error tolerance of double arithmetic)
      */
     public RightTriangle2(double legA, double legB, double hypotenuse) {
+        assert(legA*legA + legB*legB - hypotenuse * hypotenuse < Double.MIN_VALUE);
         /*D*/         this.sides = Collections.unmodifiableList(Arrays.asList(legA, legB, hypotenuse));
     }
 
+    public RightTriangle2(double[] sides) {
+        assert(sides.length == 3);
+        assert(sides[0]*sides[0] + sides[1]*sides[1] - sides[2]*sides[2] < Double.MIN_VALUE);
+        Double[] sidesDouble = ArrayUtils.toObject(sides);
+        /*D*/         this.sides = Collections.unmodifiableList(Arrays.asList(sidesDouble));
+    }
+
+    
     /** Get all the sides of the triangle.
      *  @return three-element array with the triangle's side lengths
      */

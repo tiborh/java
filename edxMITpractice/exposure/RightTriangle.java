@@ -18,9 +18,16 @@ class RightTriangle {
      *           (within the error tolerance of double arithmetic)
      */
     public RightTriangle(double legA, double legB, double hypotenuse) {
+        assert(legA*legA + legB*legB - hypotenuse * hypotenuse < Double.MIN_VALUE);
         /*D*/         this.sides = new double[] { legA, legB, hypotenuse };
     }
 
+    public RightTriangle(double[] sides) {
+        assert(sides.length == 3);
+        assert(sides[0]*sides[0] + sides[1]*sides[1] - sides[2]*sides[2] < Double.MIN_VALUE);
+        this.sides = new double[]{sides[0],sides[1],sides[2]};
+    }
+    
     /** Get all the sides of the triangle.
      *  @return three-element array with the triangle's side lengths
      */
