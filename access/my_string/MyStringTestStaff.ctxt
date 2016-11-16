@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ testValueOfTrue()
+comment1.params=
+comment1.target=void\ testValueOfFalse()
+comment2.params=
+comment2.target=void\ testEndSubstring()
+comment3.params=
+comment3.target=void\ testMiddleSubstring()
+comment4.params=
+comment4.target=void\ testSubstringIsWholeString()
+comment5.params=
+comment5.target=void\ testSubstringOfEmptySubstring()
+numComments=6

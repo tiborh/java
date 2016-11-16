@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ getWidth()
+comment0.text=@return\ the\ width\ of\ this\ rectangle
+comment1.params=
+comment1.target=int\ getHeight()
+comment1.text=@return\ the\ height\ of\ this\ rectangle
+numComments=2

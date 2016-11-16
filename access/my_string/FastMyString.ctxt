@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FastMyString()
+comment0.text=Create\ an\ uninitialized\ FastMyString.
+comment1.params=b
+comment1.target=FastMyString(boolean)
+comment1.text=\ Create\ a\ string\ representation\ of\ b,\ either\ "true"\ or\ "false".\n@param\ b\ a\ boolean\ value
+comment2.params=
+comment2.target=int\ length()
+comment3.params=i
+comment3.target=char\ charAt(int)
+comment4.params=start\ end
+comment4.target=My_String\ substring(int,\ int)
+numComments=5

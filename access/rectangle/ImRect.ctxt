@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=width\ height
+comment0.target=ImRect(int,\ int)
+comment0.text=Make\ a\ new\ side\ x\ side\ square.
+comment1.params=
+comment1.target=int\ getWidth()
+comment1.text=@return\ the\ width\ of\ this\ rectangle
+comment2.params=
+comment2.target=int\ getHeight()
+comment2.text=@return\ the\ height\ of\ this\ rectangle
+numComments=3

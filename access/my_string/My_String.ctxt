@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=b
+comment0.target=My_String\ valueOf(boolean)
+comment0.text=\ @param\ b\ a\ boolean\ value\n@return\ string\ representation\ of\ b,\ either\ "true"\ or\ "false"
+comment1.params=
+comment1.target=int\ length()
+comment1.text=@return\ number\ of\ characters\ in\ this\ string
+comment2.params=i
+comment2.target=char\ charAt(int)
+comment2.text=\ @param\ i\ character\ position\ (requires\ 0\ <\=\ i\ <\ string\ length)\n@return\ character\ at\ position\ i
+comment3.params=start\ end
+comment3.target=My_String\ substring(int,\ int)
+comment3.text=\ Get\ the\ substring\ between\ start\ (inclusive)\ and\ end\ (exclusive).\n\ \ @param\ start\ starting\ index\n\ \ @param\ end\ ending\ index.\ \ Requires\ 0\ <\=\ start\ <\=\ end\ <\=\ string\ length.\n@return\ string\ consisting\ of\ charAt(start)...charAt(end-1)
+numComments=4

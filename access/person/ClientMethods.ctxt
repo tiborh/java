@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=f
+comment0.target=void\ client1(FamilyList)
+comment1.params=f
+comment1.target=void\ client2(Familiar)
+comment2.params=f
+comment2.target=void\ client3(Familiar)
+comment3.params=f
+comment3.target=void\ client4(Familiar)
+comment4.params=argv
+comment4.target=void\ main(java.lang.String[])
+numComments=5

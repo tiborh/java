@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.util.List\ getMembers()
+comment0.text=\n\ Get\ the\ members\ in\ a\ List\n\ \n\ @return\ \ \ \ \ \ \ \ the\ members\ in\ a\ list\n
+comment1.params=
+comment1.target=int\ getSize()
+comment1.text=\n\ Get\ the\ size\ of\ the\ Family\n\ \n\ @return\ \ \ \ \ \ \ \ the\ size\ of\ the\ family\n
+comment2.params=
+comment2.target=Person\ getFirst()
+comment2.text=\n\ Get\ the\ first\ member\ of\ the\ family\n\ \n\ @return\ \ \ \ \ \ \ \ a\ person\ who\ is\ the\ first\ in\ the\ family\n
+comment3.params=
+comment3.target=Person\ getLast()
+comment3.text=\n\ Get\ the\ last\ member\ of\ the\ family\n\ \n\ @return\ \ \ \ \ \ \ \ a\ person\ who\ is\ the\ last\ in\ the\ family\n
+comment4.params=aPerson
+comment4.target=void\ addMember(Person)
+comment4.text=\n\ Add\ a\ member\ to\ the\ Family\n\ \n\ @param\ \ \ aPerson\ a\ Person\ to\ add\ to\ the\ family\n
+numComments=5
