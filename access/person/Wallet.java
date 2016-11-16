@@ -3,6 +3,14 @@ package person;
 class Wallet {
     private int amount;
 
+    public Wallet(int amount) {
+        this.amount = amount;
+    }
+    
+    public Wallet() {
+        this(1000);
+    }
+
     public void loanTo(Wallet that) {
         // put all of this wallet's money into that wallet
         that.amount += this.amount;

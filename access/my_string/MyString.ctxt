@@ -1,23 +1,21 @@
 #BlueJ class context
-comment0.params=
-comment0.target=MyString()
-comment1.params=starter
-comment1.target=MyString(char[])
+comment0.params=starter
+comment0.target=MyString(char[])
+comment1.params=b
+comment1.target=MyString(boolean)
+comment1.text=\n\ Constructor\ with\ boolean\n\ \n\ @param\ b\ a\ boolean\ value\ to\ be\ represented\ as\ string\n
 comment2.params=b
-comment2.target=MyString(boolean)
-comment2.text=\n\ Constructor\ with\ boolean\n\ \n\ @param\ b\ a\ boolean\ value\ to\ be\ represented\ as\ string\n
-comment3.params=b
-comment3.target=MyString\ valueOf(boolean)
-comment3.text=\ @param\ b\ a\ boolean\ value\n\ \ @return\ string\ representation\ of\ b,\ either\ "true"\ or\ "false"\ \n
-comment4.params=
-comment4.target=int\ length()
-comment4.text=@return\ number\ of\ characters\ in\ this\ string
-comment5.params=i
-comment5.target=char\ charAt(int)
-comment5.text=\ @param\ i\ character\ position\ (requires\ 0\ <\=\ i\ <\ string\ length)\n@return\ character\ at\ position\ i
-comment6.params=start\ end
-comment6.target=MyString\ substring(int,\ int)
-comment6.text=\ Get\ the\ substring\ between\ start\ (inclusive)\ and\ end\ (exclusive).\n\ \ @param\ start\ starting\ index\n\ \ @param\ end\ ending\ index.\ \ Requires\ 0\ <\=\ start\ <\=\ end\ <\=\ string\ length.\n@return\ string\ consisting\ of\ charAt(start)...charAt(end-1)
-comment7.params=
-comment7.target=java.lang.String\ toString()
-numComments=8
+comment2.target=MyString\ valueOf(boolean)
+comment2.text=\ @param\ b\ a\ boolean\ value\n\ \ @return\ string\ representation\ of\ b,\ either\ "true"\ or\ "false"\ \n
+comment3.params=
+comment3.target=int\ length()
+comment3.text=@return\ number\ of\ characters\ in\ this\ string
+comment4.params=i
+comment4.target=char\ charAt(int)
+comment4.text=\ @param\ i\ character\ position\ (requires\ 0\ <\=\ i\ <\ string\ length)\n@return\ character\ at\ position\ i
+comment5.params=start\ end
+comment5.target=MyString\ substring(int,\ int)
+comment5.text=\ Get\ the\ substring\ between\ start\ (inclusive)\ and\ end\ (exclusive).\n\ \ @param\ start\ starting\ index\n\ \ @param\ end\ ending\ index.\ \ Requires\ 0\ <\=\ start\ <\=\ end\ <\=\ string\ length.\n@return\ string\ consisting\ of\ charAt(start)...charAt(end-1)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

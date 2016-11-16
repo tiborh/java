@@ -1,12 +1,13 @@
 package my_string;
 
 /** MyString represents an immutable sequence of characters. */
-public class MyString {
+public class MyString implements My_String
+{
     private final char[] internal;
 
-    public MyString() {
-        internal = null;
-    }    
+//     public MyString() {
+//         internal = null;
+//     }    
     
     public MyString(char[] starter) {
         internal = new char[starter.length];
@@ -38,6 +39,7 @@ public class MyString {
     //////////////////// Examples of observer operations ///////////////
     /** @return number of characters in this string */
     public int length() {
+        assert(internal != null);
         return internal.length;
     }
 
@@ -57,7 +59,7 @@ public class MyString {
     public MyString substring(int start, int end) {
         assert(start>=0);
         assert(end<=internal.length);
-        assert(end > start);
+        assert(end >= start);
         char[] outArray = new char[end - start];
         for (int i = start; i < end; ++i)
             outArray[i-start] = internal[i];
@@ -65,6 +67,7 @@ public class MyString {
     }
     
     public String toString() {
+        assert(internal != null);
         return new String(internal);
     }
 }

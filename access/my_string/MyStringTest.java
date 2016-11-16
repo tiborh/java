@@ -67,6 +67,11 @@ public class MyStringTest
             ms2.substring(2,3).toString(),"l");        
     }
     
+    @Test
+    public void lengthTests() {
+        
+    }
+    
     /**
      * Tears down the test fixture.
      *

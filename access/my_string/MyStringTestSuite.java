@@ -6,6 +6,6 @@ import org.junit.runners.Suite;
 //Works if run by a runner.
 @RunWith(Suite.class)
 
-@Suite.SuiteClasses( { MyStringTest.class})
+@Suite.SuiteClasses( { MyStringTest.class, MyStringTestStaff.class })
 
 public class MyStringTestSuite { }
