@@ -68,14 +68,21 @@ public class BoolTest
     {
         Bool d = null;
         Bool e = null;
+        Object f = new Bool(true);
+        Object s = new String("true");
+        assertFalse("A Bool object should not be equal to a String object",a.equals(s));
         assertEquals("d should be equal to e",d,e);
         assertEquals("a should be equal to itself",a,a);
         assertEquals("b should be equal to itself",b,b);
         assertEquals("b should be equal to c",b,c);
+        assertEquals("equal objects should have equal hashcodes",b.hashCode(),c.hashCode());
+        assertEquals("c should be equal to b",c,b);
+        assertEquals("a should be equal to f",a,f);
+        assertEquals("f should be equal to a",f,a);
         assertThat("a should not be equal to b",a,not(equalTo(b)));
         assertThat("b should not be equal to a",b,not(equalTo(a)));
         assertThat("c should not be equal to d",c,not(equalTo(d)));
-        assertThat("d should not be equal to c",d,not(equalTo(c)));
+        assertThat("d should not be equal to c",d,not(equalTo(c)));        
     }
     
     @Test
@@ -90,7 +97,7 @@ public class BoolTest
         assertTrue("f should be true",f.isTrue());
         assertFalse("a and f should not be aliases of the same object",a == f);
     }
-    
+           
     /**
      * Tears down the test fixture.
      *

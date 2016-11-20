@@ -91,6 +91,7 @@ public class Bool
      */
     public Boolean isTrue() { return state == true; }
 
+    @Override
     public Bool clone() { return new Bool(this); }
     
     /**
@@ -98,33 +99,34 @@ public class Bool
      * 
      * @return state as a string
      */
+    @Override
     public String toString() { return("" + state); }
 
+    @Override
     public boolean equals(Object obj)
     {
-        if (this == null && obj == null)
-        {
-            return true;
-        }
-        if (obj == null || this == null)
-        {
-            return false;
-        }
-        if (!Bool.class.isAssignableFrom(obj.getClass()))
-        {
-            return false;
-        }
-        if (this == obj)
-        {
-            return true;
-        }
+        if (!(obj instanceof Bool)) return false;
+        if (super.equals(obj)) return true;
+        if (obj == null || this == null) return false;
+        if (!Bool.class.isAssignableFrom(obj.getClass())) return false;
+
         final Bool other = (Bool) obj;
-        if (this.isTrue() != other.isTrue()) {
-            return false;
-        }
+        if (this.isTrue() != other.isTrue()) return false;
+
         return true;
     }
 
+    @Override
+    public int hashCode()
+    {
+        assert(state != null);
+        if (state == false)
+            return 0;
+        if (state == true)
+            return 1;
+        return -1;
+    }
+    
     /**
      * A few simple operations to show how the object can be used.
      * 
