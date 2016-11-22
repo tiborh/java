@@ -55,14 +55,14 @@ public class Tweet {
      *         are equivalent.
      */
     public String getAuthor() {
-        return author;
+        return new String(author);
     }
 
     /**
      * @return text of this tweet, at most 140 characters
      */
     public String getText() {
-        return text;
+        return new String(text);
     }
 
     /**
