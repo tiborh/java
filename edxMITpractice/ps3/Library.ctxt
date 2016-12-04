@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=book
+comment0.target=BookCopy\ buy(Book)
+comment0.text=\n\ Buy\ a\ new\ copy\ of\ a\ book\ and\ add\ it\ to\ the\ library's\ collection.\n\ @param\ book\ Book\ to\ buy\n\ @return\ a\ new,\ good-condition\ copy\ of\ the\ book,\ which\ is\ now\ available\ in\ this\ library\n
+comment1.params=copy
+comment1.target=void\ checkout(BookCopy)
+comment1.text=\n\ Check\ out\ a\ copy\ of\ a\ book.\n\ @param\ copy\ Copy\ to\ check\ out.\ Requires\ that\ the\ copy\ be\ available\ in\ this\ library.\n
+comment2.params=copy
+comment2.target=void\ checkin(BookCopy)
+comment2.text=\n\ Check\ in\ a\ copy\ of\ a\ book,\ making\ it\ available\ again.\n\ @param\ copy\ Copy\ to\ check\ in.\ \ Requires\ that\ the\ copy\ be\ checked\ out\ of\ this\ library.\n
+comment3.params=copy
+comment3.target=boolean\ isAvailable(BookCopy)
+comment3.text=\n\ Test\ whether\ a\ book\ copy\ is\ available\ in\ this\ library.\n\ @param\ copy\ Book\ copy\ to\ test\n\ @return\ true\ if\ and\ only\ if\ copy\ is\ available\ in\ this\ library\n
+comment4.params=book
+comment4.target=java.util.Set\ allCopies(Book)
+comment4.text=\n\ Get\ all\ the\ copies\ of\ a\ book.\n\ @param\ book\ Book\ to\ find\n\ @return\ set\ of\ all\ copies\ of\ the\ book\ in\ this\ library's\ collection,\ both\ available\ and\ checked\ out.\n
+comment5.params=book
+comment5.target=java.util.Set\ availableCopies(Book)
+comment5.text=\n\ Get\ all\ the\ available\ copies\ of\ a\ book.\n\ @param\ book\ Book\ to\ find\n\ @return\ set\ of\ all\ copies\ of\ the\ book\ that\ are\ available\ in\ this\ library.\n
+comment6.params=query
+comment6.target=java.util.List\ find(java.lang.String)
+comment6.text=\n\ Search\ for\ books\ in\ this\ library's\ collection.\n\ @param\ query\ search\ string\n\ @return\ list\ of\ books\ in\ this\ library's\ collection\ (both\ available\ and\ checked\ out)\ \n\ whose\ title\ or\ author\ match\ the\ search\ string,\ ordered\ by\ decreasing\ amount\ \ of\ match.\n\ A\ book\ should\ appear\ at\ most\ once\ on\ the\ list.\ \n\ Keyword\ matching\ and\ ranking\ is\ underdetermined,\ but\ at\ the\ very\ least\ must\ support\:\ \n\ \ \ \ \ -\ exact\ matching\ of\ title\ and\ author\:\ i.e.,\ if\ a\ copy\ of\ a\ book\ is\ in\ the\ library's\ \n\ \ \ \ \ \ \ \ \ \ \ collection,\ then\ find(book.getTitle())\ and\ find(book.getAuthors().get(i))\ \n\ \ \ \ \ \ \ \ \ \ \ must\ include\ book\ among\ the\ results.\n\ \ \ \ \ -\ date\ ordering\:\ if\ two\ matching\ books\ have\ the\ same\ title\ and\ author\ but\ different\n\ \ \ \ \ \ \ \ \ \ \ publication\ dates,\ then\ the\ newer\ book\ should\ appear\ earlier\ on\ the\ list.\ \n
+comment7.params=copy
+comment7.target=void\ lose(BookCopy)
+comment7.text=\n\ Declare\ a\ copy\ of\ a\ book\ as\ lost\ from\ the\ library.\ \ A\ copy\ can\ be\ declared\ lost\ if\ it\ is\ stolen\n\ without\ being\ checked\ out,\ or\ if\ a\ borrower\ checks\ it\ out\ but\ never\ returns\ it.\ \n\ @param\ copy\ BookCopy\ to\ declare\ lost.\ \ Must\ have\ been\ previously\ returned\ from\ buy()\ on\ this\ library.\n
+numComments=8

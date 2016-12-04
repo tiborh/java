@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ testAssertionsEnabled()
+comment0.text=\n\ Testing\ strategy\n\ \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\n\ \n\ Book\ tests\ are\ not\ performed\ as\ they\ are\ taken\ care\ of\ in\ BookTest\n\ Partition\:\n\ \ \ \ Invariant\ tests\n\ \ \ \ Condition\ change\ tests\n
+comment1.params=
+comment1.target=void\ testNullBook()
+comment2.params=
+comment2.target=void\ testNullCond()
+comment3.params=
+comment3.target=void\ testBookReturned()
+comment4.params=
+comment4.target=void\ testBookCondition()
+numComments=5
