@@ -10,7 +10,7 @@ public class TestRunner {
      * @return String
      */
     public static void main(String[] args) {
-        Result result = JUnitCore.runClasses(ProblemOne.class);
+        Result result = JUnitCore.runClasses(ProblemOne.class,ProblemTwo.class);
 
         for (Failure failure : result.getFailures()) {
             System.out.println(failure.toString());

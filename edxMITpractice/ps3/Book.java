@@ -12,7 +12,7 @@ import java.util.Collections;
  * identified by its title, author list, and publication year.  Alphabetic case and author 
  * order are significant, so a book written by "Fred" is different than a book written by "FRED".
  */
-public class Book {
+public class Book implements Comparable<Book> {
     private static final String REGEX = ".*\\S+.*";
     // rep
     private final String title;
@@ -94,11 +94,11 @@ public class Book {
     public String toString() {
         return new String(title + " by " + authors + ", " + year);
     }
-
+    
     @Override
     public boolean equals(Object that) {
         if (that == null)
-            return false;
+            return false;        
         if (super.equals(that)) return true;
         if (!(that instanceof Book)) return false;
         if (!Book.class.isAssignableFrom(that.getClass())) return false;
@@ -128,6 +128,33 @@ public class Book {
             sum += anAuthor.length();
         sum += year;
         return(sum);
+    }
+
+    @Override
+    public int compareTo(Book other) {
+        int titleComp = this.getTitle().compareTo(other.getTitle());
+        if (titleComp != 0) return titleComp;
+        int authorComp = compareAuthors(other.getAuthors());
+        if (authorComp != 0) return authorComp;
+        int yearComp = other.getYear() - this.getYear();
+        return yearComp;
+    }
+    
+    private int compareAuthors(List<String> other) {
+        int thisSize = this.authors.size();
+        int otherSize = other.size();
+        int smallerSize = thisSize < otherSize ? thisSize : otherSize;
+        
+        for (int i = 0; i < smallerSize; ++i) {
+            int compResult = this.authors.get(i).compareTo(other.get(i));
+            if (compResult != 0)
+                return compResult;
+        }
+        
+        if (thisSize != otherSize)
+            return thisSize - otherSize;
+
+        return 0;
     }
 
     /* Copyright (c) 2016 MIT 6.005 course staff, all rights reserved.
