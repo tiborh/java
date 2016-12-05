@@ -78,7 +78,8 @@ public class BookCopy implements Cloneable{
      *    and the words "good" or "damaged" depending on its condition
      */
     public String toString() {
-        return(theBook.toString() + ", " + (bookCondition == Condition.GOOD ? "In good condition" : "A damaged copy"));
+        return(theBook.toString() + ", " + (bookCondition == Condition.GOOD ? "In good condition" : "A damaged copy") + 
+            " (" + this.hashCode() + ")\n");
     }
 
 //     @Override

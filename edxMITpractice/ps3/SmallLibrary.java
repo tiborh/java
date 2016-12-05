@@ -138,7 +138,7 @@ public class SmallLibrary implements Library {
         return(outList);
     }
     
-    private boolean stringInBook(Book aBook, String searchStr) {
+    protected static boolean stringInBook(Book aBook, String searchStr) {
         if (aBook.getTitle().contains(searchStr))
             return true;
         boolean authorSearchResult = stringInAuthors(aBook.getAuthors(),searchStr); 
@@ -147,7 +147,7 @@ public class SmallLibrary implements Library {
         return false;
     }
     
-    private boolean stringInAuthors(List<String> theAuthors, String searchStr) {
+    protected static boolean stringInAuthors(List<String> theAuthors, String searchStr) {
         for (String anAuthor : theAuthors) {
             if (anAuthor.contains(searchStr))
                 return true;
