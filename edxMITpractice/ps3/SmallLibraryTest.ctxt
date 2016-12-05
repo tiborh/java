@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ testAssertionsEnabled()
+comment0.text=\n\ Testing\ strategy\n\ \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\n\ \n\ 1.\ buying\ test\ one\ copy,\ two\ copies\n\ 2.\ checkout\ test\:\ only\ one\ checked\ out,\ both\ checked\ out\n\ 3.\ checkin\ test\:\ one\ checked\ in,\ both\ checked\ in\n\ 4.\ isAvailable\ Test\ (Question\:\ available\ at\ all,\ or\ available\ for\ lending?)\ (probably\ second)\n\ 5.\ allCopies\:\ test\ if\ full\ set\ is\ returned,\ (zero\ set\ may\ also\ be\ useful\n\ 6.\ availableCopies\:\ subset\ test\n\ \ \ \ a.\ test\ case\ when\ same\ as\ 5.\n\ 7.\ find\ tests\ (presumption\:\ whole\ word\ only)\:\n\ \ \ \ a.\ find\ all?\n\ \ \ \ b.\ ordering?\n\ \ \ \ \ \ \ i.\ year\ order\n\ \ \ \ c.\ exact\ matching\n\ \ \ \ \ \ \ i.\ of\ author\n\ \ \ \ \ \ \ ii.\ of\ title\n\ \ \ \ d.\ partial\ matching\n\ \ \ \ \ \ \ i.\ of\ author\n\ \ \ \ \ \ \ ii.\ of\ title\n\ 8.\ Lose\ checked\ in\ and\ checked\ out\ book\ too.\n\ Make\ sure\ you\ have\ partitions.\n
+comment1.params=
+comment1.target=void\ testExampleTest()
+comment2.params=
+comment2.target=void\ testLose()
+numComments=3

@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BigLibrary()
+comment1.params=aBook
+comment1.target=void\ checkRep(Book)
+comment10.params=query
+comment10.target=java.util.List\ find(java.lang.String)
+comment11.params=copy
+comment11.target=void\ lose(BookCopy)
+comment2.params=book
+comment2.target=BookCopy\ buy(Book)
+comment3.params=copy
+comment3.target=void\ checkout(BookCopy)
+comment4.params=aMap\ aBook\ aCopy
+comment4.target=void\ addCopyToMap(java.util.Map,\ Book,\ BookCopy)
+comment5.params=copy
+comment5.target=void\ checkin(BookCopy)
+comment6.params=book
+comment6.target=java.util.Set\ allCopies(Book)
+comment7.params=
+comment7.target=java.util.Set\ availableBooks()
+comment8.params=book
+comment8.target=java.util.Set\ availableCopies(Book)
+comment9.params=copy
+comment9.target=boolean\ isAvailable(BookCopy)
+numComments=12
