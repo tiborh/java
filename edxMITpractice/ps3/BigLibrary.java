@@ -41,12 +41,15 @@ public class BigLibrary implements Library {
     private void checkRep(Book aBook) {
         HashSet<BookCopy> intersection = new HashSet<BookCopy>(); // use the copy constructor
         if (inLibrary.containsKey(aBook) && checkedOut.containsKey(aBook)) {
-            intersection = inLibrary.get(aBook);
-            intersection.retainAll(checkedOut.get(aBook));
+            intersection = this.getInLibrary().get(aBook);
+            intersection.retainAll(this.getCheckedOut().get(aBook));
         }
         assert(intersection.isEmpty());
     }
 
+    private Map<Book,HashSet<BookCopy>> getInLibrary() { return Collections.unmodifiableMap(inLibrary); };
+    private Map<Book,HashSet<BookCopy>> getCheckedOut() { return Collections.unmodifiableMap(checkedOut); };
+    
     @Override
     public BookCopy buy(Book book) {
         BookCopy newCopy = new BookCopy(book);
@@ -58,15 +61,11 @@ public class BigLibrary implements Library {
     @Override
     public void checkout(BookCopy copy) {
         Book aBook = copy.getBook();
-        //System.out.println("inLibrary before checkout");
-        //System.out.println(inLibrary);
         assert(inLibrary.containsKey(aBook));
         assert(inLibrary.get(aBook).contains(copy));
         inLibrary.get(aBook).remove(copy);        
         addCopyToMap(checkedOut,aBook,copy);        
         assert(checkedOut.get(aBook).contains(copy));
-        //System.out.println("inLibrary after checkout");
-        //System.out.println(inLibrary);
         //checkRep(aBook);
     }
     
@@ -139,7 +138,8 @@ public class BigLibrary implements Library {
         if (checkedOut.get(aBook).contains(copy))
             checkedOut.get(aBook).remove(copy);
         else if (inLibrary.get(aBook).contains(copy))
-            inLibrary.get(aBook).remove(copy);        
+            inLibrary.get(aBook).remove(copy);
+        //checkRep(aBook);
     }
 
 

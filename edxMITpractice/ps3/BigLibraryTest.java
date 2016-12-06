@@ -58,11 +58,80 @@ public class BigLibraryTest {
     
     // TODO: put JUnit @Test methods here that you developed from your testing strategy
     @Test
-    public void testExampleTest() {
+    public void testEmptyLibrary() {
         Library library = new BigLibrary();
-        Book book = new Book("This Test Is Just An Example", Arrays.asList("You Should", "Replace It", "With Your Own Tests"), 1990);
-        assertEquals(Collections.emptySet(), library.availableCopies(book));
+        Book book = new Book("A Title", Arrays.asList("Author 1", "Author 2", "Author 3"), 384);
+        assertEquals("No available copies.",Collections.emptySet(), library.availableCopies(book));
+        assertEquals("Nothing in all copies",Collections.emptySet(), library.allCopies(book));
     }
+
+    @Test
+    public void testBuyCopy() {
+        Library library = new BigLibrary();
+        Book book = new Book("A Title", Arrays.asList("Author 1", "Author 2", "Author 3"), 384);
+        BookCopy copy1 = library.buy(book);
+        Set<BookCopy> bookset = new HashSet<BookCopy>(Arrays.asList(copy1));
+        assertEquals("copy1 is available.",bookset, library.availableCopies(book));
+        assertEquals("copy1 is in all copies",bookset, library.allCopies(book));
+        assertTrue("Sample book is available.",library.isAvailable(copy1));
+    }
+
+    @Test
+    public void testBuyTwoCopiesOfSameBook() {
+        Library library = new BigLibrary();
+        Book book = new Book("Emil i Lönneberga", Arrays.asList("Astrid Lindgren"), 1963);
+        BookCopy copy1 = library.buy(book);
+        BookCopy copy2 = library.buy(book);
+        Set<BookCopy> bookset2 = new HashSet<BookCopy>(Arrays.asList(copy1,copy2));
+        assertEquals("two copies in the set",2,bookset2.size());
+        assertEquals("copy1 and copy2 are available.",bookset2, library.availableCopies(book));
+        assertEquals("copy1 and copy2 are in all copies",bookset2, library.allCopies(book));
+        assertTrue("copy1 is available.",library.isAvailable(copy1));
+        assertTrue("copy2 is available.",library.isAvailable(copy2));
+    }
+    
+    @Test
+    public void testBuyTwoCopiesOfTwoBooks() {
+        Library library = new BigLibrary();
+        Book book1 = new Book("The Heart Goes Last", Arrays.asList("Margaret Atwood"), 2015);
+        Book book2 = new Book("Emil i Lönneberga", Arrays.asList("Astrid Lindgren"), 1963);
+        BookCopy copy1 = library.buy(book1);
+        BookCopy copy2 = library.buy(book2);        
+        Set<BookCopy> bookset1 = new HashSet<BookCopy>(Arrays.asList(copy1));
+        Set<BookCopy> bookset2 = new HashSet<BookCopy>(Arrays.asList(copy2));        
+        assertEquals("copy1 is available.",bookset1, library.availableCopies(book1));
+        assertEquals("copy2 is available.",bookset2, library.availableCopies(book2));
+        assertEquals("copy1 is in all copies",bookset1, library.allCopies(book1));
+        assertEquals("copy2 is in all copies",bookset2, library.allCopies(book2));
+        assertTrue("copy1 is available.",library.isAvailable(copy1));
+        assertTrue("copy2 is available.",library.isAvailable(copy2));
+    }
+    
+    @Test
+    public void testCheckOut() {
+        Library library = new BigLibrary();
+        Book book = new Book("A Title", Arrays.asList("Author 1", "Author 2", "Author 3"), 384);
+        BookCopy copy1 = library.buy(book);
+        Set<BookCopy> bookset = new HashSet<BookCopy>(Arrays.asList(copy1));
+        library.checkout(copy1);
+        assertEquals("copy1 is not available.",Collections.emptySet(), library.availableCopies(book));
+        assertEquals("copy1 is in all copies",bookset, library.allCopies(book));
+        assertFalse("Sample book is not available.",library.isAvailable(copy1));
+    }
+
+    @Test
+    public void testCheckIn() {
+        Library library = new BigLibrary();
+        Book book = new Book("A Title", Arrays.asList("Author 1", "Author 2", "Author 3"), 384);
+        BookCopy copy1 = library.buy(book);
+        Set<BookCopy> bookset = new HashSet<BookCopy>(Arrays.asList(copy1));
+        library.checkout(copy1);
+        library.checkin(copy1);
+        assertEquals("copy1 is available.",bookset, library.availableCopies(book));
+        assertEquals("copy1 is in all copies",bookset, library.allCopies(book));
+        assertTrue("Sample book is available.",library.isAvailable(copy1));
+    }
+
     
     @Test
     public void testLose() {
@@ -70,19 +139,13 @@ public class BigLibraryTest {
         Book book = new Book("HB", Arrays.asList("CSF"), 1950);
         
         BookCopy copy1 = library.buy(book);
-        BookCopy copy2 = library.buy(book);
-        //System.out.println("Available copies after purchase: " + book);
-        //System.out.println(library.availableCopies(book));
-
+        BookCopy copy2 = library.buy(book);    
         assertEquals("Size of allCopies now should be 2",2,library.allCopies(book).size());
         
         // second copy was checked out, >1 copies of book
         library.checkout(copy2);
-        //System.out.println("Available copies for: " + book);
-        //System.out.println(library.availableCopies(book));
-        //System.out.println("available books:");
-        //System.out.println(library.availableBooks());
         assertEquals("Wrong number of available books:",1,library.availableCopies(book).size());
+
         library.lose(copy2);
         Set<BookCopy> allCopies = library.allCopies(book);
         assertEquals("Wrong number for allCopies.",1,allCopies.size());
