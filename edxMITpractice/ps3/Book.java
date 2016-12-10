@@ -41,8 +41,8 @@ public class Book implements Comparable<Book> {
      * @param year Year when this edition was published in the conventional (Common Era) calendar.  Must be nonnegative. 
      */
     public Book(String title, List<String> authors, int year) {
-        this.title = new String(title);
-        this.authors = Collections.unmodifiableList(authors);
+        this.title = new String(title);        
+        this.authors = new ArrayList<String>(authors);
         this.year = year;
         checkRep();
     }

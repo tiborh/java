@@ -103,5 +103,9 @@ public class Experimenter
         System.out.println("Available copies after checkout: " + aBigLib.availableCopies(aBook));
         assert(aBigLib.availableCopies(aBook).equals(Collections.emptySet()));
         
+        aBigLib.lose(copy2);
+        aBigLib.lose(copy1);
+        System.out.println("All copies after lose all: " + aBigLib.allCopies(aBook));
+        aBigLib.find("HB");
     }
 }

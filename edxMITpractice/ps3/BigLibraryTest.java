@@ -6,8 +6,10 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Set;
 import java.util.HashSet;
+import java.util.List;
 
 import org.junit.Test;
+import org.junit.Before;
 import static org.junit.Assert.*;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -18,13 +20,12 @@ import org.junit.runners.Parameterized.Parameters;
  * Test suite for Library ADT.
  */
 public class BigLibraryTest {
-
-    /*
-     * Note: all the tests you write here must be runnable against any
-     * Library class that follows the spec.  JUnit will automatically
-     * run these tests against both SmallLibrary and BigLibrary.
-     */
-
+    private Library library;
+    
+    @Before
+    public void initialiser() {
+        library = new BigLibrary();
+    }
 
     /**
      * Testing strategy
@@ -59,7 +60,6 @@ public class BigLibraryTest {
     // TODO: put JUnit @Test methods here that you developed from your testing strategy
     @Test
     public void testEmptyLibrary() {
-        Library library = new BigLibrary();
         Book book = new Book("A Title", Arrays.asList("Author 1", "Author 2", "Author 3"), 384);
         assertEquals("No available copies.",Collections.emptySet(), library.availableCopies(book));
         assertEquals("Nothing in all copies",Collections.emptySet(), library.allCopies(book));
@@ -67,7 +67,6 @@ public class BigLibraryTest {
 
     @Test
     public void testBuyCopy() {
-        Library library = new BigLibrary();
         Book book = new Book("A Title", Arrays.asList("Author 1", "Author 2", "Author 3"), 384);
         BookCopy copy1 = library.buy(book);
         Set<BookCopy> bookset = new HashSet<BookCopy>(Arrays.asList(copy1));
@@ -78,7 +77,6 @@ public class BigLibraryTest {
 
     @Test
     public void testBuyTwoCopiesOfSameBook() {
-        Library library = new BigLibrary();
         Book book = new Book("Emil i Lönneberga", Arrays.asList("Astrid Lindgren"), 1963);
         BookCopy copy1 = library.buy(book);
         BookCopy copy2 = library.buy(book);
@@ -92,7 +90,6 @@ public class BigLibraryTest {
     
     @Test
     public void testBuyTwoCopiesOfTwoBooks() {
-        Library library = new BigLibrary();
         Book book1 = new Book("The Heart Goes Last", Arrays.asList("Margaret Atwood"), 2015);
         Book book2 = new Book("Emil i Lönneberga", Arrays.asList("Astrid Lindgren"), 1963);
         BookCopy copy1 = library.buy(book1);
@@ -109,7 +106,6 @@ public class BigLibraryTest {
     
     @Test
     public void testCheckOut() {
-        Library library = new BigLibrary();
         Book book = new Book("A Title", Arrays.asList("Author 1", "Author 2", "Author 3"), 384);
         BookCopy copy1 = library.buy(book);
         Set<BookCopy> bookset = new HashSet<BookCopy>(Arrays.asList(copy1));
@@ -121,7 +117,6 @@ public class BigLibraryTest {
 
     @Test
     public void testCheckIn() {
-        Library library = new BigLibrary();
         Book book = new Book("A Title", Arrays.asList("Author 1", "Author 2", "Author 3"), 384);
         BookCopy copy1 = library.buy(book);
         Set<BookCopy> bookset = new HashSet<BookCopy>(Arrays.asList(copy1));
@@ -135,7 +130,6 @@ public class BigLibraryTest {
     
     @Test
     public void testLose() {
-        BigLibrary library = new BigLibrary();
         Book book = new Book("HB", Arrays.asList("CSF"), 1950);
         
         BookCopy copy1 = library.buy(book);
@@ -154,12 +148,85 @@ public class BigLibraryTest {
         // lost copy was available, 1 copy of book
         library.lose(copy1);
         assertFalse("Book now should not be available.",library.isAvailable(copy1));
-        assertTrue("Library should be empty now.",library.allCopies(book).isEmpty()); 
+        assertTrue("Library should be empty now.",library.allCopies(book).isEmpty());
     }    
 
     @Test
+    public void testLoseNonExistent() {
+        Book book = new Book("HB", Arrays.asList("CSF"), 1950);
+        BookCopy copy1 = new BookCopy(book);
+        library.lose(copy1);
+    }
+    
+    @Test
+    public void testFindAfterLose() {
+        Book book = new Book("HB", Arrays.asList("CSF"), 1950);
+        BookCopy copy1 = library.buy(book);
+        library.lose(copy1);
+        assertEquals("Library should be empty",0,library.allCopies(book).size());
+        
+        List<Book> found = library.find("HB");
+        assertNotNull("Returned list should not be null",found);
+        assertEquals("Empty list should be returned",0,found.size());
+    }
+    
+    @Test
+    public void testFindTitleFromOne() {
+        Book book1 = new Book("HB", Arrays.asList("CSF"), 1951);
+        library.buy(book1);
+        List<Book> found = library.find("HB");
+        assertEquals("Book should be found",1,found.size());
+        assertEquals("Book should be identical",book1,found.get(0));
+    }
+
+    @Test
+    public void testFindTitleFromMulti() {
+        Book book1 = new Book("HB", Arrays.asList("CSF"), 1951);
+        Book book2 = new Book("AB", Arrays.asList("CSF"), 1951);
+        Book book3 = new Book("B", Arrays.asList("CSF"), 1951);
+        Book book4 = new Book("BC", Arrays.asList("CSF"), 1951);
+        library.buy(book1);
+        library.buy(book2);
+        library.buy(book3);
+        library.buy(book4);
+        List<Book> found = library.find("HB");
+        assertEquals("Book should be found",1,found.size());
+        assertEquals("Book should be identical",book1,found.get(0));
+    }
+
+    @Test
+    public void testFindAuthor() {
+        Book book1 = new Book("HB", Arrays.asList("ASF","CSF","CFG"), 1951);
+        library.buy(book1);
+        List<Book> found = library.find("CSF");
+        assertEquals("Book should be found",1,found.size());
+        assertEquals("Book should be identical",book1,found.get(0));
+    }
+    
+    @Test
+    public void testFindYearDiff() {
+        Book book1 = new Book("HB", Arrays.asList("CSF"), 1951);
+        Book book2 = new Book("HB", Arrays.asList("CSF"), 1949);
+        Book book3 = new Book("HB", Arrays.asList("CSF"), 1950);
+        library.buy(book1);
+        library.buy(book2);
+        library.buy(book3);
+        List<Book> found = library.find("HB");
+        assertEquals("All three books should be found",3,found.size());
+        assertEquals("First item test",1951,found.get(0).getYear());
+        assertEquals("Second item test",1950,found.get(1).getYear());
+        assertEquals("Third item test",1949,found.get(2).getYear());
+    }
+    
+    @Test
+    public void testFindOnEmptyLibrary() {
+        List<Book> found = library.find("HB");
+        assertNotNull("Returned list should not be null",found);
+        assertEquals("Empty list should be returned",0,found.size());
+    }
+    
+    @Test
     public void testAllCopiesAvailableCopies() {
-        Library library = new BigLibrary();
         Book book = new Book("Sense and Sensibility", Arrays.asList("Jane Austen"), 1811);
         
         // no copies owned
@@ -191,7 +258,10 @@ public class BigLibraryTest {
         // >1 copy owned, 1 available
         library.checkout(copy2);
         assertEquals(copy1and2, library.allCopies(book));
-        assertEquals(justCopy1, library.availableCopies(book));        
+        assertEquals(justCopy1, library.availableCopies(book));
+        
+        library.checkout(copy1);
+        assertEquals(noCopies, library.availableCopies(book));        
     }
 
 

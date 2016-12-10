@@ -6,6 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -60,7 +61,7 @@ public class BookTest {
 
     @Test(expected=AssertionError.class)
     public void testTitleWithSpaceOnly() {
-        Book wrongBook = new Book(" 	 ", Arrays.asList("one"), 1);
+        Book wrongBook = new Book("      ", Arrays.asList("one"), 1);
     }
 
     @Test(expected=AssertionError.class)
@@ -70,7 +71,7 @@ public class BookTest {
 
     @Test(expected=AssertionError.class)
     public void testSpacedAuthor() {
-        Book wrongBook = new Book("z", Arrays.asList("one","	","two"), 1);
+        Book wrongBook = new Book("z", Arrays.asList("one","    ","two"), 1);
     }
 
     @Test(expected=AssertionError.class)
@@ -84,6 +85,15 @@ public class BookTest {
         auths.add("second");
         assertEquals("Copied list should expand to two.",auths.size(),2);
         assertEquals("Original list should stay the same length.",bookMin.getAuthors().size(),1);
+    }
+    
+    @Test
+    public void testListExposure2() {
+        List<String> authors = new ArrayList<String>(Arrays.asList("Joe"));
+        Book aBook = new Book("title",authors,1975);
+        assertEquals("one author to the book",1,aBook.getAuthors().size());
+        authors.add("Jon");
+        assertEquals("should be one author only",1,aBook.getAuthors().size());
     }
     
     @Test

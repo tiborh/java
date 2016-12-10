@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
+import java.util.ArrayList;
 import java.util.Set;
 import java.util.Map;
 import java.util.TreeMap;
@@ -129,16 +130,44 @@ public class BigLibrary implements Library {
     
     @Override
     public List<Book> find(String query) {
-        throw new RuntimeException("not implemented yet");
+        // all the books
+        Set<Book> allKeys = inLibrary.keySet();  
+        try {
+            allKeys.addAll(checkedOut.keySet());
+        } catch (java.lang.UnsupportedOperationException e) {
+            System.err.println("You tried to find something in an empty library.");
+            return new ArrayList<Book>();
+        }
+        
+        // found books
+        Set<Book> foundBooks = new HashSet<Book>();
+        for (Book aBook : allKeys) {
+            if (SmallLibrary.stringInBook(aBook,query))
+                foundBooks.add(aBook);
+        }
+        // output creation
+        List<Book> outList = new ArrayList<Book>(foundBooks.size());
+        for (Book aBook : foundBooks) {
+            outList.add(aBook);
+        }
+        Collections.sort(outList);
+        
+        return(outList);
     }
     
     @Override
     public void lose(BookCopy copy) {
         Book aBook = copy.getBook();
-        if (checkedOut.get(aBook).contains(copy))
+        if (checkedOut.keySet().contains(aBook) && checkedOut.get(aBook).contains(copy)) {
             checkedOut.get(aBook).remove(copy);
-        else if (inLibrary.get(aBook).contains(copy))
+            if (checkedOut.get(aBook).size() == 0)
+                checkedOut.remove(aBook);
+        }
+        else if (inLibrary.keySet().contains(aBook) && inLibrary.get(aBook).contains(copy)) {
             inLibrary.get(aBook).remove(copy);
+            if (inLibrary.get(aBook).size() == 0)
+                inLibrary.remove(aBook);
+        }
         //checkRep(aBook);
     }
 
