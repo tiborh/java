@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=e
+comment0.target=boolean\ contains(java.lang.Object)
+comment0.text=@return\ true\ iff\ this\ set\ contains\ e\ as\ a\ member
+numComments=1
