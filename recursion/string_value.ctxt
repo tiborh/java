@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=n\ base
+comment0.target=java.lang.String\ stringValue(int,\ int)
+comment0.text=\n\ @param\ n\ integer\ to\ convert\ to\ string\n\ @param\ base\ base\ for\ the\ representation.\ Requires\ 2<\=base<\=10.\n\ @return\ n\ represented\ as\ a\ string\ of\ digits\ in\ the\ specified\ base,\ with\ \n\ \ \ \ \ \ \ \ \ \ \ a\ minus\ sign\ if\ n<0.\ \ No\ unnecessary\ leading\ zeros\ are\ included.\ \n
+comment1.params=argv
+comment1.target=void\ main(java.lang.String[])
+numComments=2
