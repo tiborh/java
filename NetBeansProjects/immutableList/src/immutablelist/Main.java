@@ -24,5 +24,11 @@ public class Main {
         System.out.println(x.rest().rest().rest()); // empty
         ImList<Integer> y = x.rest().cons(4);   // [4,1,2]
         System.out.println(y);
+        
+        ImList<Object> airports = 
+                ImList.empty().cons("SFO").cons("IAD").cons("BOS");
+        System.out.println(airports);
+        System.out.println(airports.first());
+        System.out.println(airports.rest().rest());
     }
 }
