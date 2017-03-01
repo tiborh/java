@@ -19,4 +19,5 @@ public interface ImList<E> {
     public ImList<E> cons(E e);
     public E first();
     public ImList<E> rest();
+    public int size();
 }

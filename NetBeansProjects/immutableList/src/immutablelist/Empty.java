@@ -31,4 +31,9 @@ public class Empty<E> implements ImList<E> {
     public String toString() {
         return " [] ";
     }
+
+    @Override
+    public int size() {
+        return 0;
+    }
 }

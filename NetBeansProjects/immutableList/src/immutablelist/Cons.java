@@ -14,29 +14,16 @@ public class Cons<E> implements ImList<E> {
         this.rest = rest;
     }
 
-    /**
-     *
-     * @param e
-     * @return
-     */
     @Override
     public ImList<E> cons(E e) {
         return new Cons<>(e, this);
     }
 
-    /**
-     *
-     * @return
-     */
     @Override
     public E first() {
         return e;
     }
 
-    /**
-     *
-     * @return
-     */
     @Override
     public ImList<E> rest() {
         return rest;
@@ -45,5 +32,10 @@ public class Cons<E> implements ImList<E> {
     @Override
     public String toString() {
         return " [ " + e + rest + "] ";
+    }
+
+    @Override
+    public int size() {
+        return 1 + rest.size();
     }
 }
