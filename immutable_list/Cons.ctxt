@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=e\ rest
+comment0.target=Cons(java.lang.Object,\ ImList)
+comment1.params=e
+comment1.target=ImList\ cons(java.lang.Object)
+comment10.params=
+comment10.target=ImList\ reverse()
+comment2.params=
+comment2.target=java.lang.Object\ first()
+comment3.params=
+comment3.target=ImList\ rest()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=int\ size()
+comment6.params=
+comment6.target=boolean\ isEmpty()
+comment7.params=e
+comment7.target=boolean\ contains(java.lang.Object)
+comment8.params=i
+comment8.target=java.lang.Object\ get(int)
+comment9.params=other
+comment9.target=ImList\ append(ImList)
+numComments=11
