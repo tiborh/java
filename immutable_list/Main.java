@@ -7,27 +7,59 @@
  */
 public class Main
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    public static void main(String[] argv) {
+        ImList<Integer> nil = ImList.empty();   // []
+        assert(nil.isEmpty());
+        assert(!nil.contains(0));
+        System.out.println(nil);
+        assert(0 == nil.size());
+        ImList<Integer> zero = nil.cons(0);     // [0]
+        assert(!zero.isEmpty());
+        assert(zero.contains(0));
+        assert(0 == zero.get(0));
+        System.out.println(zero);
+        assert(1 == zero.size());
+        ImList<Integer> x = nil.cons(2).cons(1).cons(0);  // [0,1,2]
+        assert(3 == x.size());
+        assert(x.contains(1));
+        assert(2 == x.get(2));
+        System.out.println("x == " + x);
+        System.out.println(x.first());          // 0
+        System.out.println(x.rest());           // [1,2]
+        System.out.println(x.rest().first());   // 1
+        System.out.println(x.rest().rest());    // [2]
+        System.out.println(x.rest().rest().first()); // 2
+        System.out.println(x.rest().rest().rest()); // empty
+        ImList<Integer> y = x.rest().cons(4);   // [4,1,2]
+        System.out.println("y == " + y);
+        assert(3 == y.size());
+        assert(y.contains(4));
+        assert(y.contains(2));
+        assert(1 == y.get(1));
+        
+        ImList<Integer> z = x.append(y);
+        System.out.println("x.append(y) == " + z);
+        assert(6 == z.size());
+        assert(4 == z.get(3));
+        assert(2 == z.get(5));
+        
+        ImList<Integer> aa = z.reverse();
+        System.out.println("z.reverse() == " + aa);
+        assert(6 == aa.size());
+        assert(2 == aa.get(0));
+        assert(0 == aa.get(5));
+        
 
-    /**
-     * Constructor for objects of class Main
-     */
-    public Main()
-    {
-        // initialise instance variables
-        x = 0;
+        ImList<Object> airports = 
+            ImList.empty().cons("SFO").cons("IAD").cons("BOS");
+        assert(3 == airports.size());
+        assert(airports.contains("SFO"));
+        assert(airports.contains("BOS"));
+        assert("SFO" == airports.get(2));
+        assert("BOS" == airports.get(0));
+        System.out.println(airports);
+        System.out.println(airports.first());
+        System.out.println(airports.rest().rest());
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
 }
