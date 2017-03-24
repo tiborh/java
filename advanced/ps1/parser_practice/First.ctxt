@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=node\ indent
+comment0.target=void\ visitAll(lib6005.parser.ParseTree,\ java.lang.String)
+comment0.text=\n\ Traverse\ a\ parse\ tree,\ indenting\ to\ make\ it\ easier\ to\ read.\n\ @param\ node\n\ Parse\ tree\ to\ print.\n\ @param\ indent\n\ Indentation\ to\ use.\n
+comment1.params=p
+comment1.target=IntegerExpression\ buildAST(lib6005.parser.ParseTree)
+comment1.text=\n\ Function\ converts\ a\ ParseTree\ to\ an\ IntegerExpression.\ \n\ @param\ p\n\ \ ParseTree<IntegerGrammar>\ that\ is\ assumed\ to\ have\ been\ constructed\ by\ the\ grammar\ in\ IntegerExpression.g\n\ @return\n
+comment2.params=argv
+comment2.target=void\ main(java.lang.String[])
+numComments=3

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=org.antlr.runtime.Lexer[]\ getDelegates()
+comment1.params=
+comment1.target=S001HelloWordLexer()
+comment2.params=input
+comment2.target=S001HelloWordLexer(org.antlr.runtime.CharStream)
+comment3.params=input\ state
+comment3.target=S001HelloWordLexer(org.antlr.runtime.CharStream,\ org.antlr.runtime.RecognizerSharedState)
+comment4.params=
+comment4.target=java.lang.String\ getGrammarFileName()
+comment5.params=
+comment5.target=void\ mSALUTATION()
+comment6.params=
+comment6.target=void\ mENDSYMBOL()
+comment7.params=
+comment7.target=void\ mTokens()
+numComments=8

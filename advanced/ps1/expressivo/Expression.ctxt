@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=input
+comment0.target=Expression\ parse(java.lang.String)
+comment0.text=\n\ Parse\ an\ expression.\n\ @param\ input\ expression\ to\ parse,\ as\ defined\ in\ the\ PS1\ handout.\n\ @return\ expression\ AST\ for\ the\ input\n\ @throws\ IllegalArgumentException\ if\ the\ expression\ is\ invalid\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\n\ @return\ a\ parsable\ representation\ of\ this\ expression,\ such\ that\n\ for\ all\ e\:Expression,\ e.equals(Expression.parse(e.toString())).\n
+comment2.params=thatObject
+comment2.target=boolean\ equals(java.lang.Object)
+comment2.text=\n\ @param\ thatObject\ any\ object\n\ @return\ true\ if\ and\ only\ if\ this\ and\ thatObject\ are\ structurally-equal\n\ Expressions,\ as\ defined\ in\ the\ PS1\ handout.\n
+comment3.params=
+comment3.target=int\ hashCode()
+comment3.text=\n\ @return\ hash\ code\ value\ consistent\ with\ the\ equals()\ definition\ of\ structural\n\ equality,\ such\ that\ for\ all\ e1,e2\:Expression,\n\ \ \ \ \ e1.equals(e2)\ implies\ e1.hashCode()\ \=\=\ e2.hashCode()\n
+numComments=4
