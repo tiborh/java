@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=arg
+comment0.target=java.lang.Object\ apply(java.lang.Object)
+comment0.text=\n\ to\ implement\ simple\ functions\n\ \n\ @param\ \ arg\ \ \ \ the\ argument\ of\ the\ function\n\ @return\ \ \ \ \ \ \ \ the\ result\ of\ the\ opertion\ on\ arg\n
+numComments=1

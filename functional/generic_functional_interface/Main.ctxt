@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=arg
+comment0.target=java.lang.Integer\ apply(java.lang.Integer)
+comment1.params=arg
+comment1.target=java.lang.Integer\ apply(java.lang.Integer)
+comment2.params=f1\ f2
+comment2.target=Function\ compose(Function,\ Function)
+comment3.params=arg
+comment3.target=java.lang.Integer\ apply(java.lang.Integer)
+comment4.params=argv
+comment4.target=void\ main(java.lang.String[])
+numComments=5
