@@ -1,4 +1,4 @@
-
+package person;
 /**
  * A class to check person sex and age
  * 

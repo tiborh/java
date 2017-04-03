@@ -1,4 +1,4 @@
-
+package person;
 /**
  * A class to help select Person attributes to check
  * 
